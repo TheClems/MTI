@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    height: 20vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+.logo {
+    height: 12vh;
+}
+
+.carrousel {
+    text-align: center;
+    width: 100%;
+}
+
+.intcarrousel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 20%;
+}
+
+.imgcarrousel {
+    display: block;
+    transition: transform 0.2s ease-in-out;
+}
+
+.imgcarrousel:hover {
+    transform: scale(1.05);
+}
+
+.boxbtn {
+    margin: 0 30%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.btn {
+    border: 2px solid rgb(112, 122, 122);
+    background-color: white;
+    color: rgb(112, 122, 122);
+    height: 50px;
+    width: 300px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
+}
+  
+.btn:hover {
+    background-color: rgb(112, 122, 122);
+    color: white;
+}
