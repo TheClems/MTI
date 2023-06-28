@@ -250,7 +250,7 @@ nav {
 
 /* Images pour les cartes */
 .project_card1 {
-    background-image: url("data/imgs/GFA.jpg");
+    background-image: url("https://mthillayisnard.fr/data/imgs/GFA.jpg");
     background-size: cover;
     background-position: center;
 }
