@@ -358,6 +358,8 @@ footer {
     transition:  0.5s ease;
     margin-left: 1vw;
     margin-top: 1vw;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .return_button:hover{
