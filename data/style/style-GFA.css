@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.GFA {
+    background-color: #FFFAEF;
+
+}
+
+.GFA_titre {
+    height: 50vh;
+    display: block;
+    align-items: center;
+    padding-left: 5vw;
+}
+
+.create_logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vw;
+    font-weight: lighter;
+    line-height: 39px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    font-size: 3.5vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.le {
+    margin-right: 10px;
+    border-bottom: 5px solid black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vw;
+    letter-spacing: -0.5px;
+    text-align: left;
+    margin-top: 0.2vh;
+    height: 2vw;
+}
+
+.GFA_Funding {
+    font-size: 5vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text_le_projet {
+    display: flex;
+    padding-top: 20vh;
+    height: 4vh;
+    padding: 0;
+
+}
+
+.text_GFA_Funding {
+    padding-top: 2vh;
+    display: flex;
+
+}
+
+
+/* Tableau */
+.t1 {
+    width: 90%;
+    margin: 0 auto;
+    border-spacing: 5vw;
+}
+
+.t1 td {
+    font-size: 1.5vw;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    vertical-align: top;
+    line-height: 2vw;
+  }
+
+td:nth-child(3) {
+    text-align: center;
+}
+
+
+.t1 th {
+    width: 30vw;
+    font-size: 2.5vw;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+th:nth-child(3) {
+    text-align: center;
+  }
+
+  .black{
+    background-color: #2D3435;
+    padding-bottom: 60px;
+}
+.box-h2projet {
+    height: 10vh;
+    width: 25%;
+    display: flex;
+    padding: 0;
+    margin-left: 5vw;
+    padding-top: 5vw;
+}
+
+.box-le {
+    border-bottom: 5px solid #F4B6C2;
+    margin-top: 0.5vw;
+    height: 2.7vw;
+}
+
+.txt-le {
+    font-size: 2.5vw;
+    margin: 0;
+    padding: 0;
+    color: #F4B6C2;
+    font-family: 'Poppins', sans-serif;
+}
+.projet {
+    font-size: 3.5vw;
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+    color: #F4B6C2;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.comprendre_GFA{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vh;
+    color: white;
+    text-align: left;
+    margin-top: 2vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.img_feuille{
+    padding-top: 60px;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
