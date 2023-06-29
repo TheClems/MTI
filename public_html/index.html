@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="frfr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Accueil | mthillayisnard.fr</title>
+        <link rel="stylesheet" href="data/style/style-index.css">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+        <button id="return_button" class="return_button" onclick="window.location.href='https://mthillayisnard.fr/#start';">&#11014;</button>
+    </head>
+    <body>
+        <div class="fjaune" id="start">
+            <nav>
+                <button class="nav-btn-txt" onclick="window.location.href='index.html';">Mes projets</button>
+                <button class="nav-btn-txt" onclick="window.location.href='qui_suis-je.html';">Qui suis-je ?</button>
+                <button class="nav-btn-txt" onclick="window.location.href='contact.html';">Contact</button>
+                <button class="btn-cv" onclick="window.location.href='https://mthillayisnard.fr/data/other/CV%20-%20MANON%20THILLAY%20ISNARD%20-%20UIUX%20DESIGN.pdf';">Mon CV</button>
+                <button class="btn-behance" onclick="window.location.href='https://www.behance.net/mthillayisnard';"><img src="data/imgs/logo-behance.png" alt="logo behance"></button>
+                <button class="btn-linkedin" onclick="window.location.href='https://fr.linkedin.com/in/manon-thillay-isnard-11b251173';"><img src="data/imgs/logo-linkedin.png" alt="logo linkedin"></button>
+            </nav>
+
+            <div class="container-header">
+                <div class="header">
+                    <div class="header-column-left">
+                        <img src="data/imgs/img-manon-acc.png" alt="Image de Manon Thillay-Isnard" class="img-manon-acc">
+                    </div>
+                    <div class="header-column-right">
+                        <h2 class="hello">Hello,</h2>
+                        <div class="vertical-p-container">
+                            <p class="vertical-p">je suis</p>
+                            <h1 class="horizontal-h1">Manon</h1>
+                        </div>
+                        <div class="button-container">
+                            <button>web design</button>
+                            <button class="btn-2-acc">UI design</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fdarkgrey">
+            <div class="box-h2projet">
+                <div class="box-mes">
+                    <p class="txt-mes">mes</p>
+                </div>
+                <h2 class="projets">
+                    projets
+                </h2>
+            </div>
+                <div class="container">
+        <div class="project_card1">
+            <div class="buttonDB">
+                <button class="btn_dec">Découvrir le projet</button>
+                <button class="btn_behance" onclick="window.location.href='https://www.behance.net/mthillayisnard';">Behance</button>
+            </div>
+        </div>
+        <div class="project_card2">
+            <div class="buttonC">
+                <button class="btn_coming">Coming soon</button>
+            </div>
+        </div><br>
+        <div class="project_card3">
+            <div class="buttonDB">
+                <button class="btn_dec">Découvrir le projet</button>
+                <button class="btn_behance" onclick="window.location.href='https://www.behance.net/mthillayisnard';">Behance</button>
+            </div>
+        </div>
+        <div class="project_card4">
+            <div class="buttonC">
+                <button class="btn_coming">Coming soon</button>
+            </div>
+        </div><br>
+        <div class="project_card5">
+            <div class="buttonDB">
+                <button class="btn_dec">Découvrir le projet</button>
+                <button class="btn_behance" onclick="window.location.href='https://www.behance.net/mthillayisnard';">Behance</button>
+            </div>
+        </div>
+        <div class="project_card6">
+            <div class="buttonC">
+                <button class="btn_coming">Coming soon</button>
+            </div>
+        </div>
+    </div>
+        </div>
+        <footer>
+            <p class="p-footer">@mthillayisnard <script>document.write(new Date().getFullYear())</script></p>
+            <br>
+            <a href=""><img src="data/imgs/logo-behance-noir.png" class="img-footer"></a>
+            <a href=""><img src="data/imgs/logo-linkedin-noir.png" class="img-footer"></a>
+        </footer>
+    </body>
+<script>
+    setInterval(function() {
+        var button = document.getElementById('return_button');
+        if (window.scrollY > window.innerHeight) {
+            
+            button.classList.add('visible');
+            button.disabled = false;
+        } else {
+            button.classList.remove('visible');
+            button.disabled = true;
+        }
+    }, 500);
+</script>
+</html>
