@@ -8,68 +8,70 @@ html {
 }
 
 
-.GFA {
+.header-background {
     background-color: #FFFAEF;
-
+    height: 100vh;
 }
 
-.GFA_titre {
-    height: 50vh;
+.header {
     display: block;
     align-items: center;
     padding-left: 5vw;
 }
 
-.create_logo {
-    font-family: 'Poppins', sans-serif;
-    font-size: 3vw;
-    font-weight: lighter;
-    line-height: 39px;
-    letter-spacing: -0.5px;
-    text-align: left;
-    font-size: 3.5vw;
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-
-}
-
-.le {
-    margin-right: 10px;
-    border-bottom: 5px solid black;
-    font-family: 'Poppins', sans-serif;
-    font-size: 2vw;
-    letter-spacing: -0.5px;
-    text-align: left;
-    margin-top: 0.2vh;
-    height: 2vw;
-}
-
-.GFA_Funding {
-    font-size: 5vw;
-    font-family: 'Poppins', sans-serif;
-}
-
-.text_le_projet {
+.box-top-header {
     display: flex;
     padding-top: 20vh;
     height: 4vh;
     padding: 0;
-
 }
 
-.text_GFA_Funding {
+.le {
+    margin-right: 0.6vw;
+    border-bottom: 0.6vh solid black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.1vh;
+    letter-spacing: -0.5px;
+    text-align: left;
+    margin-top: 1vh;
+    height: 3.5vh;
+}
+
+.create_logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 5vh;
+    font-weight: lighter;
+    letter-spacing: -0.5px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}    
+
+.box-header-bot {
     padding-top: 2vh;
     display: flex;
-
 }
+
+.GFA_Funding {
+    font-size: 10vh;
+    font-family: 'Poppins', sans-serif;
+}    
+
 
 
 /* Tableau */
 .t1 {
     width: 90%;
     margin: 0 auto;
-    border-spacing: 5vw;
+    border-spacing: 3vh;
+    margin-top: 10vh;
+}
+
+.t1 th {
+    width: 30vw;
+    font-size: 2vw;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
 }
 
 .t1 td {
@@ -78,19 +80,12 @@ html {
     text-align: left;
     vertical-align: top;
     line-height: 2vw;
-  }
+}
 
 td:nth-child(3) {
     text-align: center;
 }
 
-
-.t1 th {
-    width: 30vw;
-    font-size: 2.5vw;
-    text-align: left;
-    font-family: 'Poppins', sans-serif;
-}
 th:nth-child(3) {
     text-align: center;
   }
@@ -99,6 +94,7 @@ th:nth-child(3) {
     background-color: #2D3435;
     padding-bottom: 60px;
 }
+
 .box-h2projet {
     height: 10vh;
     width: 25%;
