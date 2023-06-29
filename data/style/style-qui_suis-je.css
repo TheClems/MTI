@@ -80,7 +80,9 @@ nav {
 .container-header {
     width: 90%;
     height: 60vh;
-    margin-top: 10vh;
+    margin-top: 5vh;
+    padding: 0;
+    margin-bottom: 0vh;
 }
 
 .header {
@@ -187,7 +189,7 @@ nav {
 footer {
     text-align: center;
     height: 10vh;
-    margin-top: 12.5vh;
+    margin-top: 5vh;
 }
 
 .p-footer {
