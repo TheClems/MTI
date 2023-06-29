@@ -1,0 +1,84 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+nav {
+    width: 100%;
+    text-align: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: Inter;
+}
+
+.nav-btn-txt {
+    background-color: transparent;
+    border: none;
+    margin-right: 3%;
+    font-size: 20px;
+}
+
+.btn-cv {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 500px;
+    border: 1px solid transparent;
+    text-align: center;
+    color: #fff;
+    background-color: #2D3435;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 3%;
+    transition-property: background-color, border-color, color, box-shadow, filter;
+    transition-duration: .3s;
+}
+
+.btn-cv:hover {
+    background-color: lightgray;
+    color: #2D3435;
+}
+
+.btn-behance {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    border-radius: 500px;
+    border: 1px solid transparent;
+    text-align: center;
+    color: #fff;
+    background-color: #2D3435;
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+    margin-right: 3%;
+    text-decoration: none;
+}
+
+.btn-linkedin {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    border-radius: 500px;
+    border: 1px solid transparent;
+    text-align: center;
+    color: #fff;
+    background-color: #2D3435;
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+    margin-right: 3%;
+}
+
+
+
