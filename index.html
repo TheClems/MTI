@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="data/style/style-index.css">
         <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-        <button id="return_button" class="return_button" onclick="window.location.href='https://mthillayisnard.fr/#start';">&#11014;</button>
+        <button id="return_button" class="return_button" onclick="window.location.href='#start';">&#11014;</button>
     </head>
     <body>
         <div class="fjaune" id="start">
@@ -89,7 +89,6 @@
     setInterval(function() {
         var button = document.getElementById('return_button');
         if (window.scrollY > window.innerHeight) {
-            
             button.classList.add('visible');
             button.disabled = false;
         } else {
