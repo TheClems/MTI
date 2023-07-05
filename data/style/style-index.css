@@ -90,6 +90,7 @@ html{
 
 .button-container {
     margin-top: 1vw;
+    width: 40vw;
 }
 
 .button-container button {
