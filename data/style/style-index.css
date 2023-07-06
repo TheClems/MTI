@@ -90,6 +90,7 @@ html{
 
 .button-container {
     margin-top: 1vw;
+    width: 40vw;
 }
 
 .button-container button {
@@ -115,7 +116,6 @@ html{
 .btn-2-acc {
     margin-left: 1.5vw;
 }
-
 
 .fdarkgrey {
     background-color: #2D3435;
@@ -208,7 +208,7 @@ html{
 
 
 
-/* Positionnement bouttons "DÃ©couvrir le projet" et "Behance" */
+/* Positionnement bouttons "Decouvrir le projet" et "Behance" */
 .project_card1 .buttonDB,
 .project_card3 .buttonDB,
 .project_card5 .buttonDB {
@@ -216,6 +216,7 @@ html{
     bottom: 0px;
     display: flex;
     justify-content: space-between;
+    width: 80%;
 }
 
 /* Positionnement bouttons "Coming soon" */
@@ -229,9 +230,20 @@ html{
 }
 
 /* Styles pour tous les boutons */
-.btn_dec,
-.btn_behance,
-.btn_coming {
+.btn_dec {
+    color: white;
+    background-color: #F4B6C2;
+    border: 2px solid transparent;
+    width: 15vw;
+    border-radius: 50px;
+    transition: 0.5s;
+    font-size: 1vw;
+    margin-left: 2.5vw;
+    margin-bottom: 2.5vh;
+}
+
+.btn_coming,
+.btn_behance {
     color: white;
     background-color: #F4B6C2;
     border: 2px solid transparent;
@@ -240,7 +252,7 @@ html{
     transition: 0.5s;
     font-size: 1vw;
     margin-left: 2.5vw;
-    margin-bottom: 2.5vw;
+    margin-bottom: 2.5vh;
 }
 
 /* Hover pour tous les boutons */
@@ -287,8 +299,8 @@ footer {
     text-align: center;
     opacity: 0;
     transition:  0.5s ease;
-    margin-left: 1vw;
-    margin-top: 1vw;
+    margin-left: 94vw;
+    margin-top: 90vh;
     text-align: center;
     vertical-align: middle;
 }
