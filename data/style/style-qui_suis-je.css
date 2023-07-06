@@ -23,23 +23,23 @@ body {
     height: 60vh;
 }
 
-.header-column-right {
-    flex: 1;
-    margin-left: 10px;
-    vertical-align: middle;
-}
-
-.manon-enfant {
-    height: 30vw;
-    margin-right: 10vw;
-}
-
 .header-column-left {
     flex: 1;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
     margin-right: 10px;
+}
+
+.manon-enfant {
+    height: 30vw;
+    margin-right: 5vw;
+}
+
+.header-column-right {
+    flex: 1;
+    margin-left: 10px;
+    vertical-align: middle;
 }
 
 .hello {
