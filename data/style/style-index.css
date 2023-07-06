@@ -119,13 +119,13 @@ html{
 
 .fdarkgrey {
     background-color: #2D3435;
-    height: 75vw;
+    height: 80vw;
     width: 100%;
-    padding-top: 5vh;
+    padding-top: 3vw;
 }
 
 .box-h2projet {
-    height: 10vh;
+    height: 8vw;
     width: 25%;
     display: flex;
     padding: 0;
@@ -155,8 +155,9 @@ html{
 }
 
 /* Centrer les colonnes */
-.container {
+.container-project-card {
     text-align: center;
+    margin-top: 0;
 }
 
 /* Style cartes */
@@ -172,7 +173,7 @@ html{
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
     box-shadow: 5px 5px 5px rgb(77, 77, 77);
-    margin-top: 40px;
+    margin-top: 3vw;
     margin-right: 20px;
     margin-left: 20px;
     text-align: left;
@@ -303,6 +304,10 @@ footer {
     margin-top: 90vh;
     text-align: center;
     vertical-align: middle;
+}
+
+.return-arrow {
+    width: 2vw;
 }
 
 .return_button:hover{
