@@ -119,7 +119,7 @@ html{
 
 .fdarkgrey {
     background-color: #2D3435;
-    height: 80vw;
+    height: 100vw;
     width: 100%;
     padding-top: 3vw;
 }
@@ -168,14 +168,14 @@ html{
 .project_card5,
 .project_card6 {
     display: inline-block;
-    width: 30vw;
-    height: 20vw;
+    width: 40vw;
+    height: 26.67vw;
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
     box-shadow: 5px 5px 5px rgb(77, 77, 77);
     margin-top: 3vw;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 4vw;
+    margin-left: 4vw;
     text-align: left;
     position: relative;
 }
