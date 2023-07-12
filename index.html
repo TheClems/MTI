@@ -2,15 +2,22 @@
 <html lang="frfr">
 
 <head>
+    <title>Accueil | mthillayisnard.fr</title>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Je suis une designer UI/UX créative et motivée, passionnée par l'innovation et la découverte de nouvelles approches pour améliorer l'expérience utilisateur. Mon expérience en design est complétée par mes compétences en UX suite à mes différentes expériences et projets professionnels mais aussi personnels.">
+    <meta http-equiv="refresh" content="3600">
 
-    <title>Accueil | mthillayisnard.fr</title>
-    <link rel="stylesheet" href="data/style/style-index.css">
+    <link rel="stylesheet" href="data/css/style-index.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-    <button id="return_button" class="return_button" onclick="window.location.href='#start';"><img
-            src="data/imgs/return-arrow.png" class="return-arrow" alt="retour en haut de la page"></button>
+    
+    <script src="data/js/prog-index.js"></script>
+
+    <button id="return_button" class="return_button" onclick="window.location.href='#start';">
+        <img src="data/imgs/return-arrow.png" class="return-arrow" alt="retour en haut de la page">
+    </button>
 </head>
 
 <body>
@@ -42,7 +49,7 @@
             <div class="box-mes">
                 <p class="txt-mes">mes</p>
             </div>
-            <h2 class="projets">
+            <h2 class="projets" id="projets">
                 projets
             </h2>
         </div>
@@ -52,8 +59,6 @@
                     <button class="btn_dec"
                         onclick="window.location.href='https://mthillayisnard.fr/gfa.html';">D&eacute;couvrir le
                         projet</button>
-                    <button class="btn_behance"
-                        onclick="window.location.href='https://www.behance.net/gallery/167983107/GFA-Funding-Cration-didentit';">Behance</button>
                 </div>
             </div>
             <div class="project_card2">
@@ -66,8 +71,6 @@
                     <button class="btn_dec"
                         onclick="window.location.href='https://mthillayisnard.fr/leria.html';">D&eacute;couvrir le
                         projet</button>
-                    <button class="btn_behance"
-                        onclick="window.location.href='https://www.behance.net/gallery/168336175/LERIA-Cration-de-site-web';">Behance</button>
                 </div>
             </div>
             <div class="project_card4">
@@ -78,8 +81,6 @@
             <div class="project_card5">
                 <div class="buttonDB">
                     <button class="btn_dec" onclick="window.location.href='#';">D&eacute;couvrir le projet</button>
-                    <button class="btn_behance"
-                        onclick="window.location.href='https://www.behance.net/mthillayisnard';">Behance</button>
                 </div>
             </div>
             <div class="project_card6">
@@ -98,16 +99,4 @@
         <a href=""><img src="data/imgs/logo-linkedin-noir.png" class="img-footer"></a>
     </footer>
 </body>
-<script>
-    setInterval(function () {
-        var button = document.getElementById('return_button');
-        if (window.scrollY > window.innerHeight) {
-            button.classList.add('visible');
-            button.disabled = false;
-        } else {
-            button.classList.remove('visible');
-            button.disabled = true;
-        }
-    }, 500);
-</script>
 </html>
