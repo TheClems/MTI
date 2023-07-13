@@ -10,10 +10,11 @@
     <meta http-equiv="refresh" content="3600">
 
     <link rel="stylesheet" href="data/css/style-index.css">
+    <link rel="stylesheet" href="data/css/nav.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-    
-    <script src="data/js/prog-index.js"></script>
+
+    <script src="data/js/script-index.js"></script>
 
     <button id="return_button" class="return_button" onclick="window.location.href='#start';">
         <img src="data/imgs/return-arrow.png" class="return-arrow" alt="retour en haut de la page">
@@ -22,7 +23,15 @@
 
 <body>
     <div class="fjaune" id="start">
-        <iframe src="nav.html" frameborder="0" scrolling="no" width="100%" height=""></iframe>
+        <nav>
+            <a href="index.html"><button class="nav-btn-txt">Accueil</button></a>
+            <a href="index.html#projets"><button class="nav-btn-txt">Mes projets</button></a>
+            <a href="qui_suis-je.html"><button class="nav-btn-txt">Qui suis-je ?</button></a>
+            <a href="contact.html"><button class="nav-btn-txt">Contact</button></a>
+            <a href="data/other/CV%20-%20MANON%20THILLAY%20ISNARD%20-%20UIUX%20DESIGN.pdf"><button class="btn-cv">Mon CV</button></a>
+            <a href="https://www.behance.net/mthillayisnard"><button class="btn-behance"><img src="data/imgs/logo-behance.png" alt="logo behance"></button></a>
+            <a href="https://fr.linkedin.com/in/manon-thillay-isnard-11b251173"><button class="btn-linkedin"><img src="data/imgs/logo-linkedin.png" alt="logo linkedin"></button></a>
+        </nav>
 
         <div class="container-header">
             <div class="header">
@@ -99,4 +108,5 @@
         <a href=""><img src="data/imgs/logo-linkedin-noir.png" class="img-footer"></a>
     </footer>
 </body>
+
 </html>
