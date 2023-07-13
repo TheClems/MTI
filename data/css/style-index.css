@@ -118,11 +118,10 @@ html{
     margin-left: 1.5vw;
 }
 
-.fdarkgrey {
-    background-color: #ffffff;
-    height: 100vw;
+.f-project {
+    height: 128vw;
     width: 100%;
-    padding-top: 3vw;
+    padding-top: 2vw;
 }
 
 .box-h2projet {
@@ -131,6 +130,8 @@ html{
     display: flex;
     padding: 0;
     margin-left: 4vw;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .box-mes {
@@ -155,62 +156,63 @@ html{
     margin-left: 0.5vw;
 }
 
-/* Centrer les colonnes */
-.container-project-card {
-    text-align: center;
+/*Container cartes projets*/
+.container-projects-cards {
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 0;
+    width: 100%;
+}
+
+/*Box pour regroupper img, h3, p et btn*/
+.box-card {
+    width: 35vw;
+    height: 35vw;
+    background-color: green;
+    margin: 2vw 7vw 2vw 7vw;
 }
 
 /* Style cartes */
-.project_card1,
-.project_card2,
-.project_card3,
-.project_card4,
-.project_card5,
-.project_card6 {
-    width: 40vw;
-    height: 26,67vw;
-    margin-right: 5vw;
-    margin-left: 5vw;
+.project-img {
+    width: 35vw;
+    height: 23,33vw;
+    border-radius: 1vw;
 }
 
-/* Images pour les cartes */
-.project_card1 {
-    background-image: url("https://mthillayisnard.fr/data/imgs/GFA.jpg");
-    background-size: cover;
-    background-position: center;
+/*Titres des projets*/
+.project-title {
+    color: #2D3435;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 2.8vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    margin: 0;
+    padding: 0;
+    height: 3.6vw;
 }
 
-.project_card2 {
-    background-image: url("https://mthillayisnard.fr/data/imgs/");
-    background-size: cover;
-    background-position: center;
+/*Sous titres des projets*/
+.project-subtitle {
+    color: #2D3435;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 1.4vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    margin: 0;
+    padding: 0;
 }
 
-.project_card3 {
-    background-image: url("https://mthillayisnard.fr/data/imgs/");
-    background-size: cover;
-    background-position: center;
-}
+/*Container des boutons en dessous des projets*/
 
-.project_card4 {
-    background-image: url("https://mthillayisnard.fr/data/imgs/");
-    background-size: cover;
-    background-position: center;
-}
 
-.project_card5 {
-    background-image: url("https://mthillayisnard.fr/data/imgs/");
-    background-size: cover;
-    background-position: center;
-}
+/*Boutons en dessous des projets*/
 
-.project_card6 {
-    background-image: url("https://mthillayisnard.fr/data/imgs/");
-    background-size: cover;
-    background-position: center;
-}
 
+/*Footer*/
 footer {
     text-align: center;
     height: 10vh;
