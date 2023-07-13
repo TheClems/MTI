@@ -48,7 +48,7 @@ body {
     padding: 0;
     margin: 0;
     margin-top: 30px;
-    font-weight: 700;
+    font-weight: 100;
     color: #2D3435;
 }
 
@@ -66,7 +66,7 @@ body {
     font-size: 1vw;
     margin: 0;
     margin-top: 0.6vw;
-    font-weight: 700;
+    font-weight: 100;
     color: #2D3435;
     border-left: 5px solid #2D3435;
     padding-left: 5px;
@@ -81,7 +81,7 @@ body {
     margin-left: 10px;
     padding: 0;
     font-size: 4.2vw;
-    font-weight: 700;
+    font-weight: 100;
     line-height: 1;
     color: #2D3435;
 }
