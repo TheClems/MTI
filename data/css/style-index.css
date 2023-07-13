@@ -290,7 +290,7 @@ footer {
     font-size: 3vw;
     text-align: center;
     opacity: 0;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.5s ease, color 0.5s ease;
     margin-left: 94vw;
     margin-top: 90.5vh;
     text-align: center;
