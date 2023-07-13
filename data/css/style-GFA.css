@@ -28,13 +28,13 @@ html {
 
 .le {
     margin-right: 0.6vw;
-    border-bottom: 0.6vh solid black;
+    border-bottom: 0.5vh solid black;
     font-family: 'Poppins', sans-serif;
-    font-size: 3.1vh;
+    font-size: 3.5vh;
     letter-spacing: -0.5px;
     text-align: left;
     margin-top: 1vh;
-    height: 3.5vh;
+    height: 5vh;
 }
 
 .create_logo {
@@ -107,11 +107,11 @@ th:nth-child(3) {
 .box-le {
     border-bottom: 5px solid #F4B6C2;
     margin-top: 0.5vw;
-    height: 2.7vw;
+    height: 4vw;
 }
 
 .txt-le {
-    font-size: 2.5vw;
+    font-size: 3vw;
     margin: 0;
     padding: 0;
     color: #F4B6C2;
