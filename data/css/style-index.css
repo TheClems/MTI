@@ -168,17 +168,10 @@ html{
 .project_card4,
 .project_card5,
 .project_card6 {
-    display: inline-block;
     width: 40vw;
-    height: 26.67vw;
-    border-radius: 20px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 5px 5px 5px rgb(155, 155, 155);
-    margin-top: 3vw;
-    margin-right: 4vw;
-    margin-left: 4vw;
-    text-align: left;
-    position: relative;
+    height: 26,67vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
 }
 
 /* Images pour les cartes */
@@ -189,81 +182,33 @@ html{
 }
 
 .project_card2 {
-    background-image: url("chemin/exemple.png");
+    background-image: url("https://mthillayisnard.fr/data/imgs/");
+    background-size: cover;
+    background-position: center;
 }
 
 .project_card3 {
-    background-image: url("chemin/exemple.png");
+    background-image: url("https://mthillayisnard.fr/data/imgs/");
+    background-size: cover;
+    background-position: center;
 }
 
 .project_card4 {
-    background-image: url("chemin/exemple.png");
+    background-image: url("https://mthillayisnard.fr/data/imgs/");
+    background-size: cover;
+    background-position: center;
 }
 
 .project_card5 {
-    background-image: url("chemin/exemple.png");
+    background-image: url("https://mthillayisnard.fr/data/imgs/");
+    background-size: cover;
+    background-position: center;
 }
 
 .project_card6 {
-    background-image: url("chemin/exemple.png");
-}
-
-
-
-/* Positionnement bouttons "Decouvrir le projet" et "Behance" */
-.project_card1 .buttonDB,
-.project_card3 .buttonDB,
-.project_card5 .buttonDB {
-    position: absolute;
-    bottom: 0px;
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-}
-
-/* Positionnement bouttons "Coming soon" */
-.project_card2 .buttonC,
-.project_card4 .buttonC,
-.project_card6 .buttonC {
-    position: absolute;
-    bottom: 0px;
-    width: 60%;
-    justify-content: space-between;
-}
-
-/* Styles pour tous les boutons */
-.btn_dec {
-    color: white;
-    background-color: #F4B6C2;
-    border: 2px solid transparent;
-    width: 15vw;
-    border-radius: 50px;
-    transition: 0.5s;
-    font-size: 1vw;
-    margin-left: 2.5vw;
-    margin-bottom: 2.5vh;
-}
-
-.btn_coming,
-.btn_behance {
-    color: white;
-    background-color: #F4B6C2;
-    border: 2px solid transparent;
-    width: 10vw;
-    border-radius: 50px;
-    transition: 0.5s;
-    font-size: 1vw;
-    margin-left: 2.5vw;
-    margin-bottom: 2.5vh;
-}
-
-/* Hover pour tous les boutons */
-.btn_dec:hover,
-.btn_behance:hover,
-.btn_coming:hover {
-    border-color: #F4B6C2;
-    color: #F4B6C2;
-    background-color: white;
+    background-image: url("https://mthillayisnard.fr/data/imgs/");
+    background-size: cover;
+    background-position: center;
 }
 
 footer {
