@@ -21,6 +21,7 @@ nav {
     font-size: 20px;
     color: black;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .btn-cv {
@@ -39,11 +40,13 @@ nav {
     margin-right: 2%;
     transition-property: background-color, border-color, color, box-shadow, filter;
     transition-duration: .3s;
+    cursor: pointer;
 }
 
 .btn-cv:hover {
     background-color: lightgray;
     color: #2D3435;
+    cursor: pointer;
 }
 
 .btn-behance {
@@ -60,6 +63,7 @@ nav {
     width: 40px;
     margin-right: 2%;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .btn-linkedin {
@@ -75,7 +79,5 @@ nav {
     height: 40px;
     width: 40px;
     margin-right: 2%;
+    cursor: pointer;
 }
-
-
-
