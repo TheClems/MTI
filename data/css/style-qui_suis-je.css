@@ -21,6 +21,7 @@ body {
     display: flex;
     align-items: flex-start;
     height: 60vh;
+    margin-top: 15vh;
 }
 
 .header-column-left {
@@ -121,7 +122,7 @@ body {
 footer {
     text-align: center;
     height: 10vh;
-    margin-top: 5vh;
+    margin-top: 8vh;
 }
 
 .p-footer {
