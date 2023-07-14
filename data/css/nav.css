@@ -40,6 +40,7 @@ nav {
     transition-property: background-color, border-color, color, box-shadow, filter;
     transition-duration: 0.3s;
     cursor: pointer;
+    font-weight: 700;
 }
 
 .btn-cv:hover {
