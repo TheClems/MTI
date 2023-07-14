@@ -126,11 +126,11 @@ html{
 }
 
 .box-h2projet {
-    height: 8vw;
+    height: 7vw;
     width: 25%;
     display: flex;
     padding: 0;
-    margin-left: 4vw;
+    margin-left: 8vw;
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -167,25 +167,30 @@ html{
 
 /*Box pour regroupper img, h3, p et btn*/
 .box-card {
-    width: 35vw;
-    height: 33vw;
+    width: 33vw;
+    height: 30vw;
     background-color: transparent;
-    margin: 2vw 7vw 2vw 7vw;
+    margin: 2vw 8vw 2vw 8vw;
 }
 
 /* Style cartes */
 .project-img {
-    width: 35vw;
-    height: 23,33vw;
+    width: 33vw;
+    height: 22vw;
     border-radius: 1vw;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease;
+}
+
+.project-img:hover {
+    transform: scale(1.03);
 }
 
 /*Titres des projets*/
 .project-title {
     color: #2D3435;
     font-family: Poppins, Arial, Helvetica, sans-serif;
-    font-size: 2.8vw;
+    font-size: 2.4vw;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -199,7 +204,7 @@ html{
 .project-subtitle {
     color: #2D3435;
     font-family: Poppins, Arial, Helvetica, sans-serif;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -211,7 +216,7 @@ html{
 /*Container des boutons en dessous des projets*/
 .container-btn-projects-cards {
     margin-top: 0.4vw;
-    width: 35vw;
+    width: 33vw;
     display: flex;
     justify-content: space-between;
 }
@@ -224,11 +229,11 @@ a {
 
 /*Boutons en dessous des projets*/
 .projects-buttons-left {
-    width: 20vw;
+    width: 18.5vw;
     height: 3vw;
-    border-radius: 1vw;
+    border-radius: 0.8vw;
     box-shadow: none;
-    border: solid 0.3vw #F4B6C2;
+    border: solid 0.2vw #F4B6C2;
     background-color: #F4B6C2;
     color: #ffffff;
     cursor: pointer;
@@ -237,11 +242,11 @@ a {
 }
 
 .projects-buttons-right {
-    width: 13vw;
+    width: 11.5vw;
     height: 3vw;
-    border-radius: 1vw;
+    border-radius: 0.8vw;
     box-shadow: none;
-    border: solid 0.3vw #F4B6C2;
+    border: solid 0.2vw #F4B6C2;
     background-color: #F4B6C2;
     color: #ffffff;
     cursor: pointer;
@@ -252,7 +257,7 @@ a {
 .projects-buttons-left:hover,
 .projects-buttons-right:hover {
     background-color: transparent;
-    color: #2D3435;
+    color: #F4B6C2;
 }
 
 /*Footer*/
