@@ -113,8 +113,14 @@ html{
     height: 2vw;
     border: transparent;
     cursor: pointer;
+    border: solid 0.2vw #F4B6C2;
+    transition: background-color 0.3s ease;
 }
 
+.button-container button:hover {
+    color: #F4B6C2;
+    background-color: #ffffff;
+}
 .btn-2-acc {
     margin-left: 1.5vw;
 }
