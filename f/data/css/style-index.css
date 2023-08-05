@@ -1,0 +1,347 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.fjaune {
+    background-color: #FFFAEF;
+    height: 100vh;
+}
+
+.container-header {
+    width: 50vw;
+    margin-left: 10vw;
+    height: 50vh;
+    margin-top: 30vh;
+}
+
+.header {
+    display: flex;
+    align-items: flex-start;
+}
+
+.header-column-right {
+    flex: 1;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.img-manon-acc {
+    height: 20vw;
+}
+
+/*header*/
+.header-column-left {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-right: 10px;
+}
+
+.hello {
+    font-size: 2.6vw;
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+    font-weight: 700;
+    color: #2D3435;
+}
+
+.vertical-p-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 0.5vw;
+    padding: 0;
+}
+
+.vertical-p {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 1.5vw;
+    margin: 0;
+    margin-top: 1vw;
+    font-weight: 700;
+    color: #2D3435;
+    border-left: 5px solid #2D3435;
+    padding-left: 5px;
+}
+
+.horizontal-h1 {
+    writing-mode: horizontal-tb;
+    display: inline-block;
+    padding-left: 10px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+    padding: 0;
+    font-size: 6.4vw;
+    font-weight: 100;
+    line-height: 1;
+    color: #2D3435;
+    font-style: normal;
+}
+
+.button-container {
+    margin-top: 1vw;
+    width: 40vw;
+}
+
+.button-container button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.5vw;
+    font-weight: 400;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color, border-color, color, box-shadow, filter;
+    transition-duration: 0.3s;
+    white-space: normal;
+    font-weight: 400;
+    text-align: center;
+    padding: 0.6vw 0.6vw 2.2vw 0.6vw;
+    color: #fff;
+    background-color: #F4B6C2;
+    height: 2vw;
+    border: transparent;
+    cursor: pointer;
+    border: solid 0.2vw #F4B6C2;
+    transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+    color: #F4B6C2;
+    background-color: #ffffff;
+}
+
+.btn-2-acc {
+    margin-left: 1.5vw;
+}
+
+.f-project {
+    height: 112vw;
+    width: 100%;
+    padding-top: 2vw;
+}
+
+.box-h2projet {
+    height: 7vw;
+    width: 25%;
+    display: flex;
+    padding: 0;
+    margin-left: 8vw;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.box-mes {
+    border-bottom: 5px solid #F4B6C2;
+    margin-top: 0.5vw;
+    height: 3.5vw;
+}
+
+.txt-mes {
+    font-size: 2.5vw;
+    margin: 0;
+    padding: 0;
+    color: #F4B6C2;
+}
+
+.projets {
+    color: #F4B6C2;
+    font-size: 3vw;
+    margin: 0;
+    padding: 0;
+    margin-top: 0.2vw;
+    margin-left: 0.5vw;
+}
+
+/*Container cartes projets*/
+.container-projects-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    width: 100%;
+}
+
+/*Box pour regroupper img, h3, p et btn*/
+.box-card {
+    width: 33vw;
+    height: 30vw;
+    background-color: transparent;
+    margin: 2vw 8vw 2vw 8vw;
+}
+
+/* Style cartes */
+.project-img {
+    width: 33vw;
+    height: 22vw;
+    border-radius: 1vw;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease;
+}
+
+.project-img:hover {
+    transform: scale(1.03);
+}
+
+/*Titres des projets*/
+.project-title {
+    color: #2D3435;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 2.4vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    margin: 0;
+    padding: 0;
+    height: 3.6vw;
+}
+
+/*Sous titres des projets*/
+.project-subtitle {
+    color: #2D3435;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    margin: 0;
+    padding: 0;
+}
+
+/*Container des boutons en dessous des projets*/
+.container-btn-projects-cards {
+    margin-top: 0.4vw;
+    width: 33vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Liens boutons*/
+
+a {
+    text-decoration: none;
+}
+
+/*Boutons en dessous des projets*/
+.projects-buttons-left {
+    width: 18.5vw;
+    height: 3vw;
+    border-radius: 0.8vw;
+    box-shadow: none;
+    border: solid 0.2vw #F4B6C2;
+    background-color: #F4B6C2;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1.5vw;
+    transition: background-color 0.3s ease;
+}
+
+.projects-buttons-right {
+    width: 11.5vw;
+    height: 3vw;
+    border-radius: 0.8vw;
+    box-shadow: none;
+    border: solid 0.2vw #F4B6C2;
+    background-color: #F4B6C2;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1.5vw;
+    transition: background-color 0.3s ease;
+}
+
+.projects-buttons-left:hover,
+.projects-buttons-right:hover {
+    background-color: transparent;
+    color: #F4B6C2;
+}
+
+/*Footer*/
+footer {
+    text-align: center;
+    height: 18vh;
+    background-color: #2D3435;
+}
+
+.btn-cv-footer {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.5vw;
+    font-weight: 400;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color, border-color, color, box-shadow, filter;
+    transition-duration: 0.3s;
+    white-space: normal;
+    font-weight: 400;
+    text-align: center;
+    padding: 0.6vw 0.6vw 2.2vw 0.6vw;
+    color: #fff;
+    background-color: #F4B6C2;
+    height: 2vw;
+    border: transparent;
+    cursor: pointer;
+    border: solid 0.2vw #F4B6C2;
+    margin-top: 2vh;
+}
+
+.btn-cv-footer:hover {
+    color: #F4B6C2;
+    background-color: #ffffff;
+}
+
+.p-footer {
+    font-size: 1vw;
+    margin: 0;
+    padding: 1vh;
+    color: #ffffff;
+}
+
+.img-footer {
+    height: 1vw;
+    padding: 0;
+    margin: 0;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.return_button{
+    position: fixed;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    background-color: #F4B6C2;
+    text-align: center;
+    opacity: 0;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    margin-left: 94vw;
+    margin-top: 90.5vh;
+    vertical-align: middle;
+}
+
+.return-arrow {
+    width: 2vw;
+}
+
+.return_button:hover{
+    border-color: #F4B6C2;
+    color: #F4B6C2;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.return_button.visible{
+    opacity: 1;
+}
