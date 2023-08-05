@@ -21,7 +21,7 @@ body {
     display: flex;
     align-items: flex-start;
     height: 60vh;
-    margin-top: 15vh;
+    margin-top: 10vh;
 }
 
 .header-column-left {
@@ -41,6 +41,7 @@ body {
     flex: 1;
     margin-left: 10px;
     vertical-align: middle;
+    margin-top: 5vh;
 }
 
 .hello {
@@ -122,13 +123,12 @@ body {
 footer {
     text-align: center;
     height: 10vh;
-    margin-top: 8vh;
+    margin-top: 10vh;
 }
 
 .p-footer {
     font-size: 1vw;
-    margin: 0;
-    padding: 0;
+    padding: 0.8vh;
 }
 
 .img-footer {
