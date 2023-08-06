@@ -6,13 +6,13 @@ function redirigerVersVersionAppropriee() {
   var nomFichier = window.location.pathname.split('/').pop();
 
   // Vérifier la largeur de l'écran et rediriger en conséquence
-  if (largeurEcran > 600) {
+  if (largeurEcran >= 800) {
     window.location.href = '../' + nomFichier; // Redirection vers la version mobile
   }
 }
 
 // Exécuter la fonction de redirection au chargement initial
-redirigerVersVersionAppropriee();
+// redirigerVersVersionAppropriee();
 
 // Exécuter la fonction de redirection chaque seconde
 setInterval(redirigerVersVersionAppropriee, 1000);
