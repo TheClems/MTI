@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="shortcut icon" href="data/imgs/all/MTI.png" type="image/x-icon">
-    <link rel="stylesheet" href="data/css/style-GFA.css">
-    <link rel="stylesheet" href="data/css/nav.css">
+    <link rel="shortcut icon" href="../data/imgs/all/MTI.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style-GFA.css">
+    <link rel="stylesheet" href="css/nav.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
 
@@ -18,14 +18,29 @@
 <body>
     <div class="header-background">
         <nav>
-            <a href="index.html" class="nav-aTxt"><button class="nav-btn-txt">Accueil</button></a>
-            <a href="index.html#projets" class="nav-aTxt"><button class="nav-btn-txt">Mes projets</button></a>
-            <a href="qui_suis-je.html" class="nav-aTxt"><button class="nav-btn-txt">Qui suis-je ?</button></a>
-            <a href="contact.html" class="nav-aTxt"><button class="nav-btn-txt">Contact</button></a>
-            <a href="data/other/CV_-_Manon_THILLAY-ISNARD_-_UXUI_Designer.pdf" class="nav-aBtn"><button class="btn-cv">CV</button></a>
-            <a href="https://www.behance.net/mthillayisnard" class="nav-aBtn"><button class="btn-behance">BE</button></a>
-            <a href="https://fr.linkedin.com/in/manon-thillay-isnard-11b251173" class="nav-aBtn"><button class="btn-linkedin">IN</button></a>
-        </nav>
+            <div class="navbar">
+              <div class="container nav-container">
+                  <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="logo">
+                  <h1>Nav</h1>
+                </div>
+                  <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                  </div>  
+                <div class="menu-items">
+                  <li><a href="index.html">Accueil</a></li>
+                  <li><a href="index.html#projets">Projets</a></li>
+                  <li><a href="qui_suis-je.html">Qui suis-je ?</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="../data/other/CV_-_Manon_THILLAY-ISNARD_-_UXUI_Designer.pdf"><button>Mon CV</button></a></li>
+                  <li><a href="https://www.behance.net/mthillayisnard"><button>Mon CV</button></a></li>
+                  <li><a href="https://fr.linkedin.com/in/manon-thillay-isnard-11b251173"><button>Mon CV</button></a></li>
+                </div>
+              </div>
+            </div>
+          </nav>
         
         <div class="header">
             <div class="box-top-header">
@@ -46,14 +61,17 @@
                 <td>Le brief est simple : cr&#233;er une identit&#233; visuelle &#224; un produit. Mais le produit est,
                     lui, moins simple : une solution d&#8217;investissement pour la construction. La difficult&#233; ici
                     a &#233;t&#233; de rendre ce produit &#8220;sexy&#8221; et reconnaissable facilement. Je vous invite
-                    aujourd&#8217;hui &#224; suivre mon precessus.</td>
+                    aujourd&#8217;hui &#224; suivre mon precessus.
+                </td>
                 <td>J&#8217;ai agi en tant que responsable du projet et est travaill&#233; en &#233;troite collaboration
-                    pour comprendre le produit et le traduire &#224; travers une identit&#233; propre.</td>
+                    pour comprendre le produit et le traduire &#224; travers une identit&#233; propre.
+                </td>
                 <td>Illustrator<br>
                     InDesign <br>
                     Pinterest<br>
                     Behance<br>
-                    Procreate</td>
+                    Procreate
+                </td>
             </tr>
         </table>
     </div>
@@ -81,7 +99,7 @@
             regardant de plus près, c’est un logo plus en longueur et se lisant de gauche à droite qui paraissait le
             plus cohérent. Après avoir validé avec les équipes, j’ai décidé de réfléchir plus en profondeur à ce logo.
         </div>
-        <img class="img_feuille" src="data/imgs/gfa/img-manon-feuille.png" alt="">
+        <img class="img_feuille" src="../data/imgs/gfa/img-manon-feuille.png" alt="">
 
         <div class="box-h2projet">
             <div class="box-le">
@@ -104,6 +122,14 @@
         <div class="comprendre_GFA">Fini les esquisses et bonjour les croquis, à l’aide de ma tablette et de
             l’application procreate j’ai créer une version plus abouti à présenter aux équipes.</div>
     </div>
+    <footer>
+        <a href="data/other/CV_-_Manon_THILLAY-ISNARD_-_UXUI_Designer.pdf" class="nav-aBtn"><button class="btn-cv-footer">T&eacute;l&eacute;charger mon CV</button></a>
+        <p class="p-footer">@mthillayisnard
+            <script>document.write(new Date().getFullYear())</script>
+        </p>
+        <a href="https://www.behance.net/mthillayisnard"><img src="data/imgs/all/logo-behance.png" class="img-footer"></a>
+        <a href="https://fr.linkedin.com/in/manon-thillay-isnard-11b251173"><img src="data/imgs/all/logo-linkedin.png" class="img-footer"></a>
+    </footer>
 </body>
 
 </html>
