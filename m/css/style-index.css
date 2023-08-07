@@ -66,8 +66,8 @@ html{
     margin-top: 1vw;
     font-weight: 700;
     color: #2D3435;
-    border-left: 5px solid #2D3435;
-    padding-left: 5px;
+    border-left: 1.2vw solid #2D3435;
+    padding-left: 1.2vw;
     opacity: 0.99;
     z-index: 1;
 }
@@ -78,7 +78,7 @@ html{
     padding-left: 4vw;
     margin-left: 4vw;
     padding: 0;
-    font-size: 22vw;
+    font-size: 20vw;
     font-weight: 700;
     line-height: 0.8;
     color: #2D3435;
@@ -296,7 +296,7 @@ footer {
     width: 4vw;
     height: 4vw;
     border-radius: 50%;
-    border: 2px solid transparent;
+    border: 1vw solid transparent;
     background-color: #F4B6C2;
     text-align: center;
     opacity: 0;
