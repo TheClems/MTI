@@ -36,13 +36,15 @@ html{
     display: block;
     margin: auto;
     margin-top: 5vh;
+    width: 90vw;
 }
 
 .hello {
-    font-size: 9vw;
+    font-size: 10vw;
     padding: 0;
     margin: 0;
-    margin-top: 30px;
+    margin-top: 3vh;
+    margin-left: 1vw;
     font-weight: 700;
     color: #2D3435;
 }
@@ -59,7 +61,7 @@ html{
     position: relative;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
-    font-size: 4vw;
+    font-size: 5svw;
     margin: 0;
     margin-top: 1vw;
     font-weight: 700;
@@ -73,10 +75,10 @@ html{
 .horizontal-h1 {
     writing-mode: horizontal-tb;
     display: inline-block;
-    padding-left: 10px;
-    margin-left: 10px;
+    padding-left: 4vw;
+    margin-left: 4vw;
     padding: 0;
-    font-size: 18vw;
+    font-size: 22vw;
     font-weight: 700;
     line-height: 0.8;
     color: #2D3435;
@@ -84,36 +86,25 @@ html{
 }
 
 .button-container {
-    margin-top: 1vw;
-    width: 40vw;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
 }
 
 .button-container button {
-    display: inline-block;
+    justify-content: space-between;
     outline: none;
-    cursor: pointer;
-    font-size: 1.5vw;
-    font-weight: 400;
+    font-size: 3.9vw;
+    font-weight: 300;
     line-height: 1;
     border-radius: 500px;
-    transition-property: background-color, border-color, color, box-shadow, filter;
-    transition-duration: 0.3s;
     white-space: normal;
-    font-weight: 400;
     text-align: center;
-    padding: 0.6vw 0.6vw 2.2vw 0.6vw;
+    padding: 1.4vw 1.4vw 4.6vw 1.4vw;
     color: #fff;
     background-color: #F4B6C2;
-    height: 2vw;
-    border: transparent;
-    cursor: pointer;
+    height: 4vw;
     border: solid 0.2vw #F4B6C2;
-    transition: background-color 0.3s ease;
-}
-
-.button-container button:hover {
-    color: #F4B6C2;
-    background-color: #ffffff;
 }
 
 .btn-2-acc {
@@ -121,7 +112,7 @@ html{
 }
 
 .f-project {
-    height: 112vw;
+    height: 614vw;
     width: 100%;
     padding-top: 2vw;
 }
@@ -168,48 +159,42 @@ html{
 
 /*Box pour regroupper img, h3, p et btn*/
 .box-card {
-    width: 33vw;
-    height: 30vw;
+    width: 90vw;
+    height: 90vw;
     background-color: transparent;
-    margin: 2vw 8vw 2vw 8vw;
+    margin: auto;
+    margin-top: 10vw;
 }
 
 /* Style cartes */
 .project-img {
-    width: 33vw;
-    height: 22vw;
-    border-radius: 1vw;
+    width: 90vw;
+    height: 60vw;
+    border-radius: 3vw;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     transition: transform 0.3s ease;
 }
 
 .project-img:hover {
-    transform: scale(1.03);
+    transform: scale(1.02);
 }
 
 /*Titres des projets*/
 .project-title {
     color: #2D3435;
-    font-family: Poppins, Arial, Helvetica, sans-serif;
-    font-size: 2.4vw;
-    font-style: normal;
+    font-family: Poppins;
+    font-size: 9vw;
     font-weight: 700;
-    line-height: normal;
-    letter-spacing: -0.5px;
-    margin: 0;
-    padding: 0;
-    height: 3.6vw;
+    letter-spacing: -0.2vw;
+    height: 12vw;
 }
-
 /*Sous titres des projets*/
 .project-subtitle {
     color: #2D3435;
     font-family: Poppins, Arial, Helvetica, sans-serif;
-    font-size: 1.2vw;
-    font-style: normal;
+    font-size: 5vw;
     font-weight: 500;
-    line-height: normal;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.2vw;
     margin: 0;
     padding: 0;
 }
@@ -217,7 +202,7 @@ html{
 /*Container des boutons en dessous des projets*/
 .container-btn-projects-cards {
     margin-top: 0.4vw;
-    width: 33vw;
+    width: 90vw;
     display: flex;
     justify-content: space-between;
 }
@@ -230,29 +215,31 @@ a {
 
 /*Boutons en dessous des projets*/
 .projects-buttons-left {
-    width: 18.5vw;
-    height: 3vw;
-    border-radius: 0.8vw;
-    box-shadow: none;
+    border-radius: 1.5vw;
     border: solid 0.2vw #F4B6C2;
     background-color: #F4B6C2;
     color: #ffffff;
     cursor: pointer;
-    font-size: 1.5vw;
-    transition: background-color 0.3s ease;
+    font-size: 3vw;
+    line-height: 6vw;
+    font-family: Poppins;
+    width: 45vw;
+    height: 6vw;
+    transition: background-color 0.3s, color 0.3s ease;
 }
 
 .projects-buttons-right {
-    width: 11.5vw;
-    height: 3vw;
-    border-radius: 0.8vw;
-    box-shadow: none;
+    border-radius: 1.5vw;
     border: solid 0.2vw #F4B6C2;
     background-color: #F4B6C2;
     color: #ffffff;
     cursor: pointer;
-    font-size: 1.5vw;
-    transition: background-color 0.3s ease;
+    font-size: 3vw;
+    line-height: 6vw;
+    font-family: Poppins;
+    width: 35vw;
+    height: 6vw;
+    transition: background-color 0.3s, color 0.3s ease;
 }
 
 .projects-buttons-left:hover,
@@ -264,31 +251,25 @@ a {
 /*Footer*/
 footer {
     text-align: center;
-    height: 18vh;
+    height: 15vh;
     background-color: #2D3435;
 }
 
 .btn-cv-footer {
-    display: inline-block;
-    outline: none;
     cursor: pointer;
-    font-size: 1.5vw;
+    font-size: 4vw;
     font-weight: 400;
-    line-height: 1;
     border-radius: 500px;
     transition-property: background-color, border-color, color, box-shadow, filter;
     transition-duration: 0.3s;
-    white-space: normal;
-    font-weight: 400;
     text-align: center;
-    padding: 0.6vw 0.6vw 2.2vw 0.6vw;
     color: #fff;
     background-color: #F4B6C2;
     height: 2vw;
-    border: transparent;
-    cursor: pointer;
     border: solid 0.2vw #F4B6C2;
     margin-top: 2vh;
+    width: 40vw;
+    height: 8vw;
 }
 
 .btn-cv-footer:hover {
@@ -297,18 +278,18 @@ footer {
 }
 
 .p-footer {
-    font-size: 1vw;
+    font-size: 2.8vw;
     margin: 0;
     padding: 1vh;
     color: #ffffff;
 }
 
 .img-footer {
-    height: 1vw;
+    height: 4vw;
     padding: 0;
     margin: 0;
-    margin-left: 1vw;
-    margin-right: 1vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
 }
 
 .return_button{
