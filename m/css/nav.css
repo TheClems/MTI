@@ -124,8 +124,50 @@ body {
 
 .navbar .menu-items li {
   margin-bottom: 1.2rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 500;
+}
+
+.nav_btn-cv {
+  background-color: #0e2431;
+  border: solid 0.5vw #0e2431;
+  border-radius: 500vw;
+  width: 6rem;
+  height: 2rem;
+  font-size: 1rem;
+  color: #ffffff;
+  transition: color 0.3s, background-color 0.3s ease;
+}
+
+.nav_btn-cv:hover {
+  background-color: #ffffff;
+  color: #0e2431;
+}
+
+.nav_btn-lkdn {
+  background-color: #0e2431;
+  border: solid 0.5vw #0e2431;
+  border-radius: 500vw;
+  width: 2rem;
+  height: 2rem;
+}
+
+.nav_logo-lkdn {
+  width: 1rem;
+}
+
+.nav_btn-bhnc {
+  background-color: #0e2431;
+  border: solid 0.5vw #0e2431;
+  border-radius: 500vw;
+  width: 2rem;
+  height: 2rem;
+}
+
+.nav_logo-bhnc {
+  height: 0.8rem;
+  margin-top: 0.1rem;
+  margin-left: 0.1rem;
 }
 
 .logo {

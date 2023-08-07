@@ -118,23 +118,22 @@ html{
 }
 
 .box-h2projet {
-    height: 7vw;
-    width: 25%;
+    height: 14vw;
+    width: 45vw;
     display: flex;
     padding: 0;
-    margin-left: 8vw;
-    margin-bottom: 0;
-    margin-top: 0;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-left: 6vw;
 }
 
 .box-mes {
-    border-bottom: 5px solid #F4B6C2;
-    margin-top: 0.5vw;
-    height: 3.5vw;
+    border-bottom: 1vw solid #F4B6C2;
+    height: 9vw;
 }
 
 .txt-mes {
-    font-size: 2.5vw;
+    font-size: 6vw;
     margin: 0;
     padding: 0;
     color: #F4B6C2;
@@ -142,11 +141,11 @@ html{
 
 .projets {
     color: #F4B6C2;
-    font-size: 3vw;
+    font-size: 9vw;
     margin: 0;
     padding: 0;
-    margin-top: 0.2vw;
-    margin-left: 0.5vw;
+    margin-left: 1vw;
+    line-height: 11vw;
 }
 
 /*Container cartes projets*/
@@ -163,7 +162,7 @@ html{
     height: 90vw;
     background-color: transparent;
     margin: auto;
-    margin-top: 10vw;
+    margin-bottom: 10vw;
 }
 
 /* Style cartes */
@@ -257,7 +256,7 @@ footer {
 
 .btn-cv-footer {
     cursor: pointer;
-    font-size: 4vw;
+    font-size: 3.5vw;
     font-weight: 400;
     border-radius: 500px;
     transition-property: background-color, border-color, color, box-shadow, filter;
