@@ -22,6 +22,10 @@ nav {
     margin-right: 2vw;
 }
 
+.nav-btn-txt:hover {
+    text-decoration: underline;
+}
+
 .btn-cv,
 .btn-behance,
 .btn-linkedin {
