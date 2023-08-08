@@ -123,7 +123,7 @@ th:nth-child(3) {
 
 /*Image d'éolienne en dessous du tableau*/
 .img-eolienne {
-    width: 100vw;
+    width: 100%;
 }
 
 /*fond blanc avec padding, de projet jusqu'à la fin de wireframe*/
@@ -165,6 +165,7 @@ th:nth-child(3) {
     padding: 0;
     color: #F4B6C2;
     font-family: 'Poppins', sans-serif;
+
 }
 
 .box-le2 {
@@ -216,6 +217,7 @@ th:nth-child(3) {
 
 .box-img_wireframes {
     text-align: center;
+
 }
 
 .img_wireframes {
