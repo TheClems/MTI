@@ -1,12 +1,14 @@
 * {
     margin: 0;
-    padding: 0;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
+body {
+    margin: 0;
+}
 
 .header-background {
     background-color: #FFFAEF;
@@ -14,14 +16,11 @@ html {
 }
 
 .header {
-    display: block;
-    align-items: center;
     padding-left: 5vw;
 }
 
 .box-top-header {
     display: flex;
-    padding-top: 20vh;
     height: 4vh;
     padding: 0;
 }
@@ -40,7 +39,7 @@ html {
 .create_site {
     font-family: 'Poppins', sans-serif;
     font-size: 5vh;
-    font-weight: lighter;
+    font-weight: 100;
     letter-spacing: -0.5px;
     text-align: left;
     margin: 0;
@@ -52,7 +51,7 @@ html {
     display: flex;
 }
 
-.GFA_Funding {
+.Leria {
     font-size: 10vh;
     font-family: 'Poppins', sans-serif;
 }
@@ -77,30 +76,42 @@ html {
 
 }
 
-
-
 /* Tableau */
 .t1 {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    border-spacing: 3vh;
-    margin-top: 10vh;
+    margin-top: 15vh;
 }
 
 .t1 th {
-    width: 30vw;
-    font-size: 2vw;
-    text-align: left;
+    font-size: 1.5vw;
     font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 0vh 4vw 2vh 4vw;
+    text-align: left;
 }
 
 .t1 td {
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-family: 'Poppins', sans-serif;
-    text-align: left;
     vertical-align: top;
-    line-height: 2vw;
+    line-height: 3.6vh;
+    font-weight: 100;
+    padding: 2vh 4vw 0vh 4vw;
 }
+
+.title-table1 {
+    width: 42.5vw;
+}
+
+.title-table2 {
+    width: 32.5vw;
+}
+
+.title-table3 {
+    width: 15vw;
+}
+
 
 td:nth-child(3) {
     text-align: left;
@@ -110,18 +121,25 @@ th:nth-child(3) {
     text-align: left;
 }
 
-.black {
-    background-color: #2D3435;
-    padding-bottom: 60px;
+/*Image d'éolienne en dessous du tableau*/
+.img-eolienne {
+    width: 100%;
 }
 
-.box-h2projet {
+/*fond blanc avec padding, de projet jusqu'à la fin de wireframe*/
+.background-white {
+    background-color: #ffffff;
+    margin: 0;
+    padding-left: 16vw;
+    padding-right: 16vw;
+}
+
+/*Titre projet et autres titre de même style*/
+.box-h2 {
     height: 10vh;
-    width: 25%;
     display: flex;
     padding: 0;
-    margin-left: 5vw;
-    margin-top: 5vw;
+    margin-top: 1vw;
 }
 
 .box-le {
@@ -140,11 +158,14 @@ th:nth-child(3) {
 
 .titre_rose {
     font-size: 3.5vw;
+    font-weight: 100;
+    line-height: 5vw;
     margin: 0;
     margin-left: 10px;
     padding: 0;
     color: #F4B6C2;
     font-family: 'Poppins', sans-serif;
+
 }
 
 .box-le2 {
@@ -170,145 +191,66 @@ th:nth-child(3) {
     font-family: 'Poppins', sans-serif;
 }
 
-
-.projet {
+/*Style du texte utilisé par exemple pour Qu'est ce que LERIA ?*/
+.text-corp {
     font-family: 'Poppins', sans-serif;
-    font-size: 3vh;
-    color: white;
+    font-size: 1.3vw;
+    font-weight: 100;
+    color: #2D3435;
     text-align: left;
-    margin-top: 2vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    line-height: 5vh;
+    margin-top: 2vw;
+    line-height: 1.8vw;
+    padding-bottom: 3vw;
 }
 
-.site_noir {
-    font-family: 'Poppins', sans-serif;
-    font-size: 3vh;
-    color: white;
-    text-align: left;
-    margin-top: 2vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    line-height: 5vh;
-}
-
-.site_blanc {
-    font-family: 'Poppins', sans-serif;
-    font-size: 3vh;
-    color: rgb(0, 0, 0);
-    text-align: left;
-    margin-top: 2vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    line-height: 5vh;
-}
-
-.text_conclusion{
-    font-family: 'Poppins', sans-serif;
-    font-size: 3vh;
-    color: white;
-    text-align: left;
-    margin-top: 2vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    line-height: 5vh;
-}
-
-.flex_logo {
+.box-logo-leria {
     display: flex;
-    justify-content: space-between;
-    background-color: #FFFFFF;
-    padding-left: 6vw;
-    padding-top: 6vw;
-    padding-right: 6vw;
-    align-items: center;
-}
-
-.text_logo_leria {
-    font-family: 'Poppins', sans-serif;
-    width: 50%;
-    font-size: 1.5vw;
+    width: 100%;
 }
 
 .logo_leria {
     width: 30%;
-}
-
-
-.wireframes {
-    display: block;
-    text-align: center;
-}
-
-.text_logo_wireframes {
-    margin-top: 2vw;
-    width: 90%;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 1.5vw;
-    font-family: 'Poppins', sans-serif;
-
-}
-
-.logo_wireframes {
-    margin-top: 3vw;
-    width: 60%;
-
-}
-
-.img_renouvelable_immobilier {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    margin-top: 15vw;
-    margin-bottom: 10vw;
-}
-
-.image_container {
-    width: 35%;
-    text-align: center;
-}
-
-.logo_renouvelable{
-    width: 90%;
-}
-.logo_imobilier {
-    width: 90%;
-}
-
-.footer{
-    text-align: center;
-    margin-top: 6vh;
-    margin-bottom: 2vh;
-}
-
-.btn_footer_manon{
-    padding: 0.7vw;
-    background-color: #F4B6C2;
-    border: 3px solid #F4B6C2;
-    border-radius: 50px;
-    color: white;
-    transition-duration: .3s;
-    font-family: 'Poppins', sans-serif;
+    margin: auto;
     margin-top: 4vh;
-    font-size: 1.5vw;
-    margin-bottom: 1vh;
 }
 
-.btn_footer_manon:hover {
-    background-color: transparent;
-    color: #F4B6C2;
-    border: 3px solid #F4B6C2;
+
+.box-img_wireframes {
+    text-align: center;
 
 }
 
-.text_footer_manon{
-    margin-bottom: 3vh;
+.img_wireframes {
+    width: 60%;
 }
 
-.logo_footer_manon{
-    margin-left: 10px;
-    margin-left: 10px;
+.background_rose {
+    background-color: #FFFAEF;
+    padding-top: 1vw;
+    padding-right: 16vw;
+    padding-bottom: 3vw;
+    padding-left: 16vw;
+}
+
+.box-img-page-principale-leria {
+    display: flex;
+    margin-bottom: 5vw;
+}
+
+.img-page-principale-leria {
+    border-radius: 16px;
+    width: 60vw;
+    margin: auto;
+}
+
+.box-img-page-presentation-leria {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 5vw;
+}
+
+.img-page-presentation-leria {
+    width: 25vw;
+    border-radius: 16px;
 }
