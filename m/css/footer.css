@@ -1,0 +1,43 @@
+/*Footer*/
+footer {
+    text-align: center;
+    height: 15vh;
+    background-color: #2D3435;
+}
+
+.btn-cv-footer {
+    cursor: pointer;
+    font-size: 3.5vw;
+    font-weight: 400;
+    border-radius: 500px;
+    transition-property: background-color, border-color, color, box-shadow, filter;
+    transition-duration: 0.3s;
+    text-align: center;
+    color: #fff;
+    background-color: #F4B6C2;
+    height: 2vw;
+    border: solid 0.2vw #F4B6C2;
+    margin-top: 2vh;
+    width: 40vw;
+    height: 8vw;
+}
+
+.btn-cv-footer:hover {
+    color: #F4B6C2;
+    background-color: #ffffff;
+}
+
+.p-footer {
+    font-size: 2.8vw;
+    margin: 0;
+    padding: 1vh;
+    color: #ffffff;
+}
+
+.img-footer {
+    height: 4vw;
+    padding: 0;
+    margin: 0;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}

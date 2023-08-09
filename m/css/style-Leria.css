@@ -16,29 +16,32 @@ body {
 }
 
 .header {
+    margin-top: 10vh;
     padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 .box-top-header {
     display: flex;
-    height: 4vh;
+    height: 3vh;
     padding: 0;
 }
 
 .le {
-    margin-right: 0.6vw;
-    border-bottom: 0.5vh solid black;
+    margin-right: 0.5vh;
+    border-bottom: 0.3vh solid black;
     font-family: 'Poppins', sans-serif;
-    font-size: 3.5vh;
+    font-size: 2vh;
     letter-spacing: -0.5px;
     text-align: left;
-    margin-top: 1.5vh;
-    height: 4.8vh;
+    margin-top: 0.6vh;
+    height: 2.5vh;
+    line-height: 2.5vh;
 }
 
 .create_site {
     font-family: 'Poppins', sans-serif;
-    font-size: 5vh;
+    font-size: 2.5vh;
     font-weight: 100;
     letter-spacing: -0.5px;
     text-align: left;
@@ -52,73 +55,50 @@ body {
 }
 
 .Leria {
-    font-size: 10vh;
+    font-size: 6vh;
     font-family: 'Poppins', sans-serif;
+    line-height: 6vh;
+    font-weight: 400;
 }
 
 .btn_decouvrir_site {
-
-    padding: 0.7vw;
+    margin-top: 2.4vh;
+    padding: 0.2vh 4vh 0.2vh 4vh;
     background-color: #2D3435;
     border: 3px solid #2D3435;
     border-radius: 50px;
     color: white;
+    transition: color, background-color ease;
     transition-duration: .3s;
     font-family: 'Poppins', sans-serif;
-    margin-top: 4vh;
-    font-size: 1.5vw;
+    font-size: 1.6vh;
 }
 
 .btn_decouvrir_site:hover {
     background-color: transparent;
     color: #2D3435;
     border: 3px solid #2D3435;
-
 }
 
-/* Tableau */
-.t1 {
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 15vh;
+/*3 paragraphe en dessous du header*/
+.box_p-bot-header {
+    padding-top: 6vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
-.t1 th {
-    font-size: 1.5vw;
+h3 {
+    margin-top: 3vh;
+    margin-bottom: 0.8vh;
+}
+
+.p-bot-header {
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    padding: 0vh 4vw 2vh 4vw;
-    text-align: left;
-}
-
-.t1 td {
-    font-size: 1.2vw;
-    font-family: 'Poppins', sans-serif;
-    vertical-align: top;
-    line-height: 3.6vh;
+    font-size: 2vh;
     font-weight: 100;
-    padding: 2vh 4vw 0vh 4vw;
-}
-
-.title-table1 {
-    width: 42.5vw;
-}
-
-.title-table2 {
-    width: 32.5vw;
-}
-
-.title-table3 {
-    width: 15vw;
-}
-
-
-td:nth-child(3) {
+    color: #2D3435;
     text-align: left;
-}
-
-th:nth-child(3) {
-    text-align: left;
+    line-height: 2.4vh;
 }
 
 /*Image d'éolienne en dessous du tableau*/
@@ -130,26 +110,27 @@ th:nth-child(3) {
 .background-white {
     background-color: #ffffff;
     margin: 0;
-    padding-left: 16vw;
-    padding-right: 16vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 /*Titre projet et autres titre de même style*/
 .box-h2 {
-    height: 10vh;
+    height: 6vh;
     display: flex;
     padding: 0;
-    margin-top: 1vw;
+    margin-top: 4vh;
 }
 
 .box-le {
-    border-bottom: 0.3vw solid #F4B6C2;
-    margin-top: 0.8vw;
-    height: 2.8vw;
+    border-bottom: 0.3vh solid #F4B6C2;
+    margin-top: 1vh;
+    margin-right: 1vh;
+    height: 3.2vh;
 }
 
 .txt-le {
-    font-size: 2vw;
+    font-size: 2.4vh;
     margin: 0;
     padding: 0;
     color: #F4B6C2;
@@ -157,35 +138,9 @@ th:nth-child(3) {
 }
 
 .titre_rose {
-    font-size: 3.5vw;
-    font-weight: 100;
-    line-height: 5vw;
+    font-size: 4vh;
+    font-weight: 400;
     margin: 0;
-    margin-left: 10px;
-    padding: 0;
-    color: #F4B6C2;
-    font-family: 'Poppins', sans-serif;
-
-}
-
-.box-le2 {
-    border-bottom: 0.3vw solid #F4B6C2;
-    margin-top: 0.8vw;
-    height: 3.6vw;
-}
-
-.txt-le2 {
-    font-size: 2.8vw;
-    margin: 0;
-    padding: 0;
-    color: #F4B6C2;
-    font-family: 'Poppins', sans-serif;
-}
-
-.titre_rose2 {
-    font-size: 3.5vw;
-    margin: 0;
-    margin-left: 10px;
     padding: 0;
     color: #F4B6C2;
     font-family: 'Poppins', sans-serif;
@@ -194,13 +149,13 @@ th:nth-child(3) {
 /*Style du texte utilisé par exemple pour Qu'est ce que LERIA ?*/
 .text-corp {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.3vw;
+    font-size: 2vh;
     font-weight: 100;
     color: #2D3435;
     text-align: left;
-    margin-top: 2vw;
-    line-height: 1.8vw;
-    padding-bottom: 3vw;
+    margin-top: 1vh;
+    line-height: 2.4vh;
+    padding-bottom: 2.4vh;
 }
 
 .box-logo-leria {
@@ -209,7 +164,7 @@ th:nth-child(3) {
 }
 
 .logo_leria {
-    width: 30%;
+    width: 90%;
     margin: auto;
     margin-top: 4vh;
 }
@@ -217,19 +172,20 @@ th:nth-child(3) {
 
 .box-img_wireframes {
     text-align: center;
-
+    margin-top: 4vh;
+    margin-bottom: 4vh;
 }
 
 .img_wireframes {
-    width: 60%;
+    width: 90%;
 }
 
 .background_rose {
     background-color: #FFFAEF;
     padding-top: 1vw;
-    padding-right: 16vw;
-    padding-bottom: 3vw;
-    padding-left: 16vw;
+    padding-right: 5vw;
+    padding-bottom: 5vw;
+    padding-left: 5vw;
 }
 
 .box-img-page-principale-leria {
@@ -238,8 +194,8 @@ th:nth-child(3) {
 }
 
 .img-page-principale-leria {
-    border-radius: 16px;
-    width: 60vw;
+    border-radius: 3%;
+    width: 100%;
     margin: auto;
 }
 
@@ -251,6 +207,6 @@ th:nth-child(3) {
 }
 
 .img-page-presentation-leria {
-    width: 25vw;
-    border-radius: 16px;
+    width: 45%;
+    border-radius: 3%;
 }
