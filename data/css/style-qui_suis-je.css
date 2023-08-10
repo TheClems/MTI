@@ -89,6 +89,9 @@ body {
 
 .button-container {
     margin-top: 1vw;
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;
 }
 
 .button-container button {
@@ -109,10 +112,6 @@ body {
     background-color: #F4B6C2;
     height: 2vw;
     border: transparent;
-}
-
-.btn-2-acc {
-    margin-left: 2.5vw;
 }
 
 .bio {
