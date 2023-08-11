@@ -108,16 +108,16 @@ html{
     text-align: center;
     padding: 0.6vw 0.6vw 2.2vw 0.6vw;
     color: #fff;
-    background-color: #F4B6C2;
+    background-color: #897C9A;
     height: 2vw;
     border: transparent;
     cursor: pointer;
-    border: solid 0.2vw #F4B6C2;
+    border: solid 0.2vw #897C9A;
     transition: background-color 0.3s ease;
 }
 
 .button-container button:hover {
-    color: #F4B6C2;
+    color: #897C9A;
     background-color: #ffffff;
 }
 
@@ -142,7 +142,7 @@ html{
 }
 
 .box-mes {
-    border-bottom: 5px solid #F4B6C2;
+    border-bottom: 5px solid #897C9A;
     margin-top: 0.5vw;
     height: 3.5vw;
 }
@@ -151,11 +151,11 @@ html{
     font-size: 2.5vw;
     margin: 0;
     padding: 0;
-    color: #F4B6C2;
+    color: #897C9A;
 }
 
 .projets {
-    color: #F4B6C2;
+    color: #897C9A;
     font-size: 3vw;
     margin: 0;
     padding: 0;
@@ -239,8 +239,8 @@ a {
     height: 3vw;
     border-radius: 0.8vw;
     box-shadow: none;
-    border: solid 0.2vw #F4B6C2;
-    background-color: #F4B6C2;
+    border: solid 0.2vw #897C9A;
+    background-color: #897C9A;
     color: #ffffff;
     cursor: pointer;
     font-size: 1.5vw;
@@ -252,8 +252,8 @@ a {
     height: 3vw;
     border-radius: 0.8vw;
     box-shadow: none;
-    border: solid 0.2vw #F4B6C2;
-    background-color: #F4B6C2;
+    border: solid 0.2vw #897C9A;
+    background-color: #897C9A;
     color: #ffffff;
     cursor: pointer;
     font-size: 1.5vw;
@@ -263,7 +263,7 @@ a {
 .projects-buttons-left:hover,
 .projects-buttons-right:hover {
     background-color: transparent;
-    color: #F4B6C2;
+    color: #897C9A;
 }
 
 .return_button{
@@ -272,7 +272,7 @@ a {
     height: 4vw;
     border-radius: 50%;
     border: 2px solid transparent;
-    background-color: #F4B6C2;
+    background-color: #897C9A;
     text-align: center;
     opacity: 0;
     transition: background-color 0.5s ease, color 0.5s ease;
@@ -286,8 +286,8 @@ a {
 }
 
 .return_button:hover{
-    border-color: #F4B6C2;
-    color: #F4B6C2;
+    border-color: #897C9A;
+    color: #897C9A;
     background-color: transparent;
     cursor: pointer;
 }

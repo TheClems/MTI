@@ -20,16 +20,16 @@ footer {
     text-align: center;
     padding: 0.6vw 0.6vw 2.2vw 0.6vw;
     color: #fff;
-    background-color: #F4B6C2;
+    background-color: #897C9A;
     height: 2vw;
     border: transparent;
     cursor: pointer;
-    border: solid 0.2vw #F4B6C2;
+    border: solid 0.2vw #897C9A;
     margin-top: 2vh;
 }
 
 .btn-cv-footer:hover {
-    color: #F4B6C2;
+    color: #897C9A;
     background-color: #ffffff;
 }
 
