@@ -143,7 +143,7 @@ th:nth-child(3) {
 }
 
 .box-le {
-    border-bottom: 0.3vw solid #897C9A;
+    border-bottom: 0.3vw solid #F4B6C2;
     margin-top: 0.8vw;
     height: 2.8vw;
 }
@@ -152,7 +152,7 @@ th:nth-child(3) {
     font-size: 2vw;
     margin: 0;
     padding: 0;
-    color: #897C9A;
+    color: #F4B6C2;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -163,13 +163,13 @@ th:nth-child(3) {
     margin: 0;
     margin-left: 10px;
     padding: 0;
-    color: #897C9A;
+    color: #F4B6C2;
     font-family: 'Poppins', sans-serif;
 
 }
 
 .box-le2 {
-    border-bottom: 0.3vw solid #897C9A;
+    border-bottom: 0.3vw solid #F4B6C2;
     margin-top: 0.8vw;
     height: 3.6vw;
 }
@@ -178,7 +178,7 @@ th:nth-child(3) {
     font-size: 2.8vw;
     margin: 0;
     padding: 0;
-    color: #897C9A;
+    color: #F4B6C2;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -187,7 +187,7 @@ th:nth-child(3) {
     margin: 0;
     margin-left: 10px;
     padding: 0;
-    color: #897C9A;
+    color: #F4B6C2;
     font-family: 'Poppins', sans-serif;
 }
 
