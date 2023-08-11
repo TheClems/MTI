@@ -102,9 +102,9 @@ html{
     text-align: center;
     padding: 1.4vw 1.4vw 4.6vw 1.4vw;
     color: #fff;
-    background-color: #F4B6C2;
+    background-color: #897C9A;
     height: 4vw;
-    border: solid 0.2vw #F4B6C2;
+    border: solid 0.2vw #897C9A;
 }
 
 .btn-2-acc {
@@ -128,7 +128,7 @@ html{
 }
 
 .box-mes {
-    border-bottom: 1vw solid #F4B6C2;
+    border-bottom: 1vw solid #897C9A;
     height: 9vw;
 }
 
@@ -136,11 +136,11 @@ html{
     font-size: 6vw;
     margin: 0;
     padding: 0;
-    color: #F4B6C2;
+    color: #897C9A;
 }
 
 .projets {
-    color: #F4B6C2;
+    color: #897C9A;
     font-size: 9vw;
     margin: 0;
     padding: 0;
@@ -215,8 +215,8 @@ a {
 /*Boutons en dessous des projets*/
 .projects-buttons-left {
     border-radius: 1.5vw;
-    border: solid 0.2vw #F4B6C2;
-    background-color: #F4B6C2;
+    border: solid 0.2vw #897C9A;
+    background-color: #897C9A;
     color: #ffffff;
     cursor: pointer;
     font-size: 3vw;
@@ -229,8 +229,8 @@ a {
 
 .projects-buttons-right {
     border-radius: 1.5vw;
-    border: solid 0.2vw #F4B6C2;
-    background-color: #F4B6C2;
+    border: solid 0.2vw #897C9A;
+    background-color: #897C9A;
     color: #ffffff;
     cursor: pointer;
     font-size: 3vw;
@@ -244,7 +244,7 @@ a {
 .projects-buttons-left:hover,
 .projects-buttons-right:hover {
     background-color: transparent;
-    color: #F4B6C2;
+    color: #897C9A;
 }
 
 .return_button{
@@ -253,7 +253,7 @@ a {
     height: 4vw;
     border-radius: 50%;
     border: 1vw solid transparent;
-    background-color: #F4B6C2;
+    background-color: #897C9A;
     text-align: center;
     opacity: 0;
     transition: background-color 0.5s ease, color 0.5s ease;
@@ -267,8 +267,8 @@ a {
 }
 
 .return_button:hover{
-    border-color: #F4B6C2;
-    color: #F4B6C2;
+    border-color: #897C9A;
+    color: #897C9A;
     background-color: transparent;
     cursor: pointer;
 }

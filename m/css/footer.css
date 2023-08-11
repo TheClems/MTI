@@ -14,16 +14,16 @@ footer {
     transition-duration: 0.3s;
     text-align: center;
     color: #fff;
-    background-color: #F4B6C2;
+    background-color: #897C9A;
     height: 2vw;
-    border: solid 0.2vw #F4B6C2;
+    border: solid 0.2vw #897C9A;
     margin-top: 2vh;
     width: 40vw;
     height: 8vw;
 }
 
 .btn-cv-footer:hover {
-    color: #F4B6C2;
+    color: #897C9A;
     background-color: #ffffff;
 }
 
