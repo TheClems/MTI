@@ -17,30 +17,31 @@ body {
     height: 100vh;
 }
 
-.header {
-    padding-left: 5vw;
+.hero {
+    padding-left: 7vw;
+    margin-top: 10vh;
 }
 
-.box-top-header {
+.box-top-hero {
     display: flex;
-    height: 4vh;
+    height: 3.5vh;
     padding: 0;
 }
 
 .le {
-    margin-right: 0.6vw;
-    border-bottom: 0.5vh solid black;
+    margin-right: 0.6vh;
+    border-bottom: 0.2vh solid black;
     font-family: 'Poppins', sans-serif;
-    font-size: 3.5vh;
+    font-size: 1.5vh;
     letter-spacing: -0.5px;
     text-align: left;
-    margin-top: 1.2vh;
-    height: 4.6vh;
+    margin-top: 0.9vh;
+    height: 2.1vh;
 }
 
-.header_subtitle {
+.hero_subtitle {
     font-family: 'Poppins', sans-serif;
-    font-size: 5vh;
+    font-size: 2.5vh;
     font-weight: 100;
     letter-spacing: -0.5px;
     text-align: left;
@@ -48,67 +49,40 @@ body {
     padding: 0;
 }
 
-.box-header-bot {
-    padding-top: 2vh;
-    display: flex;
-}
-
-.header-h1 {
-    font-size: 10vh;
-    font-family: 'Poppins', sans-serif;
-}
-
-/*Tableau en bas du header*/
-.t1 {
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 40vh;
-}
-
-.t1 th {
-    font-size: 1.5vw;
+.hero-h1 {
+    font-size: 5vh;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    padding: 0vh 4vw 2vh 4vw;
-    text-align: left;
 }
 
-.t1 td {
-    font-size: 1.2vw;
+.bot-header {
+    padding-left: 7vw;
+    padding-right: 7vw;
+    margin-top: 20vw;
+}
+
+h3 {
+    font-size: 2.5vh;
+    line-height: 3vh;
+    margin-top: 5vh;
+}
+
+.text-header {
     font-family: 'Poppins', sans-serif;
-    vertical-align: top;
-    line-height: 3.6vh;
-    font-weight: 100;
-    padding: 2vh 4vw 0vh 4vw;
-}
-
-.title-table1 {
-    width: 42.5vw;
-}
-
-.title-table2 {
-    width: 32.5vw;
-}
-
-.title-table3 {
-    width: 15vw;
-}
-
-
-td:nth-child(3) {
+    font-size: 2vh;
+    font-weight: 400;
+    color: #2D3435;
     text-align: left;
-}
-
-th:nth-child(3) {
-    text-align: left;
+    margin-top: 1vh;
+    line-height: 3.5vh;
 }
 
 /*fond blanc avec padding, de projet jusqu'à la fin de wireframe*/
 .background-white {
     background-color: #ffffff;
     margin: 0;
-    padding-left: 16vw;
-    padding-right: 16vw;
+    padding-left: 7vw;
+    padding-right: 7vw;
 }
 
 /*Bannières et autres images faisant 100% de la largeur de leur emplacement*/
@@ -118,21 +92,21 @@ th:nth-child(3) {
 
 /*Titre projet et autres titre de même style*/
 .box-h2 {
-    height: 10vh;
+    height: 7vw;
     display: flex;
     padding: 0;
-    margin-top: 1vw;
-    padding-bottom: 1vw;
+    margin-top: 3vh;
+    padding-bottom: 2vh;
 }
 
 .box-le {
-    border-bottom: 0.3vw solid #F4B6C2;
-    margin-top: 0.8vw;
-    height: 2.8vw;
+    border-bottom: 0.6vw solid #F4B6C2;
+    margin-top: 1.6vw;
+    height: 6vw;
 }
 
 .txt-le {
-    font-size: 2vw;
+    font-size: 4vw;
     margin: 0;
     padding: 0;
     color: #F4B6C2;
@@ -140,9 +114,9 @@ th:nth-child(3) {
 }
 
 .titre_rose {
-    font-size: 3.5vw;
+    font-size: 8vw;
     font-weight: 100;
-    line-height: 5vw;
+    line-height: 10vw;
     margin: 0;
     margin-left: 10px;
     padding: 0;
@@ -154,13 +128,13 @@ th:nth-child(3) {
 /*Style du texte de corp*/
 .text-corp {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.2vw;
-    font-weight: 100;
+    font-size: 4.05vw;
+    font-weight: 400;
     color: #2D3435;
     text-align: left;
-    margin-top: 2vw;
-    line-height: 1.7vw;
-    padding-bottom: 3vw;
+    margin-top: 5vw;
+    line-height: 7vw;
+    padding-bottom: 5vw;
 }
 
 /*Emblème iconique*/
@@ -170,7 +144,8 @@ th:nth-child(3) {
     font-size: 1.3vw;
     font-weight: 100;
     color: #2D3435;
-    margin-top: 2vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
     line-height: 1.8vw;
     padding-bottom: 3vw;
 }
@@ -200,36 +175,36 @@ th:nth-child(3) {
 .box_img-flex2 {
     display: flex;
     text-align: center;
-    width: 45%;
+    width: 100%;
     justify-content: space-between;
-    padding-left: 18vw;
-    padding-right: 18vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
     margin-bottom: 5vw;
 } 
 
 .box_img-flex3 {
     display: flex;
     text-align: center;
-    width: 62%;
+    width: 100%;
     justify-content: space-between;
-    padding-left: 12vw;
-    padding-right: 12vw;
+    padding-left: 8.9vw;
+    padding-right: 8.9vw;
     margin-bottom: 5vw;
 } 
 
 .box_img-flex4 {
     display: flex;
     text-align: center;
-    width: 80%;
+    width: 100%;
     justify-content: space-between;
-    padding-left: 7vw;
-    padding-right: 7vw;
+    padding-left: 3.4vw;
+    padding-right: 3.4vw;
     margin-bottom: 5vw;
 }
 
 /*Images de démonstrations en lignes*/
 .img-flex {
-    width: 10.6vw;
+    width: 17vw;
 }
 
 /*Séparation de l'écran en 2 pour Selectionner et En détails*/
@@ -244,11 +219,11 @@ th:nth-child(3) {
 }
 
 .column div {
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
 .img-2columns {
-    width: 10.6vw;
+    width: 17vw;
 }
