@@ -29,8 +29,6 @@ nav {
 .btn-cv,
 .btn-behance,
 .btn-linkedin {
-    height: 2vw;
-    width: 2vw;
     border-radius: 50vw;
     border: none;
     background-color: #2D3435;
@@ -41,6 +39,17 @@ nav {
     color: white;
     font-size: 1vw;
     text-align: center;
+}
+
+.btn-cv {
+    height: 2vw;
+    width: 5vw;
+}
+
+.btn-behance,
+.btn-linkedin {
+    height: 2vw;
+    width: 2vw;
 }
 
 .btn-cv:hover,
