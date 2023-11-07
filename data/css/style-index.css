@@ -96,13 +96,10 @@ html{
 .button-container button {
     display: inline-block;
     outline: none;
-    cursor: pointer;
     font-size: 1.5vw;
     font-weight: 400;
     line-height: 1;
     border-radius: 500px;
-    transition-property: background-color, border-color, color;
-    transition-duration: 0.3s;
     white-space: normal;
     font-weight: 400;
     text-align: center;
@@ -110,10 +107,8 @@ html{
     color: #fff;
     background-color: #F4B6C2;
     height: 2vw;
-    border: transparent;
-    cursor: pointer;
     border: solid 0.2vw #F4B6C2;
-    transition: background-color 0.3s ease;
+    cursor: default;
 }
 
 .btn-2-acc {
@@ -121,7 +116,7 @@ html{
 }
 
 .f-project {
-    height: 112vw;
+    height: 118vw;
     width: 100%;
     padding-top: 2vw;
 }
@@ -169,7 +164,7 @@ html{
 /*Box pour regroupper img, h3, p et btn*/
 .box-card {
     width: 33vw;
-    height: 30vw;
+    height: 33vw;
     background-color: transparent;
     margin: 2vw 8vw 2vw 8vw;
 }
@@ -261,7 +256,7 @@ a {
     color: #F4B6C2;
 }
 
-.return_button{
+.return_button {
     position: fixed;
     width: 4vw;
     height: 4vw;
@@ -278,15 +273,20 @@ a {
 
 .return-arrow {
     width: 2vw;
+    filter: invert(1);
 }
 
-.return_button:hover{
+.return_button:hover {
     border-color: #F4B6C2;
     color: #F4B6C2;
     background-color: transparent;
     cursor: pointer;
+
+    .return-arrow {
+        filter: none;
+    }
 }
 
-.return_button.visible{
+.return_button.visible {
     opacity: 1;
 }
