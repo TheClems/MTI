@@ -273,7 +273,7 @@ a {
 
 .return-arrow {
     width: 2vw;
-    filter: invert(1);
+    filter: brightness(0) invert(1);
 }
 
 .return_button:hover {
