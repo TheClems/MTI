@@ -1,8 +1,8 @@
 /*Footer*/
 footer {
     text-align: center;
-    height: 18vh;
-    background-color: #FFFAEF;
+    height: 25vh;
+    background: #2D3435;
     margin-top: 2vw;
 }
 
@@ -13,19 +13,20 @@ footer {
     font-size: 1.2vw;
     font-weight: 400;
     line-height: 1.2vw;
-    border-radius: 500px;
+    border-radius: 0.4vw;
     transition-property: background-color, border-color, color, box-shadow, filter;
     transition-duration: 0.3s;
     white-space: normal;
     font-weight: 400;
     text-align: center;
-    padding: 0.6vw 0.7vw 1.7vw 0.7vw;
+    padding: 0.6vw 1vw 1.7vw 1vw;
     color: #fff;
     background-color: #F4B6C2;
     height: 2vw;
     border: transparent;
     border: solid 0.2vw #F4B6C2;
-    margin-top: 2.5vh;
+    margin-top: 1.6vh;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
 .btn-cv-footer:hover {
@@ -35,10 +36,10 @@ footer {
 
 .p-footer {
     font-family: Poppins, Arial, Helvetica, sans-serif;
-    font-size: 1vw;
+    font-size: 0.8vw;
     margin: 0;
     padding: 1vw;
-    color: #000000;
+    color: #ffffff;
 }
 
 .img-footer {
@@ -47,5 +48,4 @@ footer {
     margin: 0;
     margin-left: 1vw;
     margin-right: 1vw;
-    filter: invert(1);
 }

@@ -308,7 +308,7 @@ a {
 .projects-buttons-left {
     width: 18.5vw;
     height: 3vw;
-    border-radius: 0.8vw;
+    border-radius: 0.4vw;
     box-shadow: none;
     border: solid 0.2vw #F4B6C2;
     background-color: #F4B6C2;
@@ -322,7 +322,7 @@ a {
 .projects-buttons-right {
     width: 11.5vw;
     height: 3vw;
-    border-radius: 0.8vw;
+    border-radius: 0.4vw;
     box-shadow: none;
     border: solid 0.2vw #F4B6C2;
     background-color: #F4B6C2;
