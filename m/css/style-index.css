@@ -11,6 +11,7 @@ html{
 .fjaune {
     background-color: #FFFAEF;
     height: 100vh;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 /*header*/
@@ -18,7 +19,7 @@ html{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 5vh;
+    margin-top: 15vh;
 }
 
 .box-img-header {
@@ -29,13 +30,13 @@ html{
 
 .img-manon-acc {
     margin: auto;
-    width: 75vw;
+    width: 50vw;
 }
 
 .int-header {
     display: block;
     margin: auto;
-    margin-top: 5vh;
+    margin-top: 0;
     width: 90vw;
 }
 
@@ -47,6 +48,7 @@ html{
     margin-left: 1vw;
     font-weight: 700;
     color: #2D3435;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
 .vertical-p-container {
@@ -70,6 +72,7 @@ html{
     padding-left: 1.2vw;
     opacity: 0.99;
     z-index: 1;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
 .horizontal-h1 {
@@ -83,6 +86,7 @@ html{
     line-height: 0.8;
     color: #2D3435;
     font-style: normal;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
 .button-container {
@@ -97,7 +101,7 @@ html{
     font-size: 3.9vw;
     font-weight: 300;
     line-height: 1;
-    border-radius: 500px;
+    border-radius: 1vh;
     white-space: normal;
     text-align: center;
     padding: 1.4vw 1.4vw 4.6vw 1.4vw;
@@ -109,6 +113,16 @@ html{
 
 .btn-2-acc {
     margin-left: 1.5vw;
+}
+
+.container-down-arrow {
+    text-align: center;
+    margin-top: 26vh;
+    width: 100%;
+}
+
+.down-arrow {
+    width: 40px;
 }
 
 .f-project {

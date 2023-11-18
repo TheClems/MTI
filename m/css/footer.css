@@ -1,7 +1,7 @@
 /*Footer*/
 footer {
     text-align: center;
-    height: 15vh;
+    height: 18vh;
     background-color: #2D3435;
 }
 
@@ -9,7 +9,7 @@ footer {
     cursor: pointer;
     font-size: 3.5vw;
     font-weight: 400;
-    border-radius: 500px;
+    border-radius: 1vh;
     transition-property: background-color, border-color, color, box-shadow, filter;
     transition-duration: 0.3s;
     text-align: center;
@@ -17,14 +17,14 @@ footer {
     background-color: #F4B6C2;
     height: 2vw;
     border: solid 0.2vw #F4B6C2;
-    margin-top: 2vh;
+    margin-top: 1.5vh;
     width: 40vw;
     height: 8vw;
 }
 
 .btn-cv-footer:hover {
     color: #F4B6C2;
-    background-color: #ffffff;
+    background-color: transparent;
 }
 
 .p-footer {
