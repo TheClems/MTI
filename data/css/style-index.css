@@ -128,6 +128,7 @@ nav {
     margin-top: 30px;
     font-weight: 800;
     color: #2D3435;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
 .vertical-p-container {
@@ -148,6 +149,7 @@ nav {
     color: #2D3435;
     border-left: 0.5vw solid #2D3435;
     padding-left: 5px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
 .horizontal-h1 {
@@ -163,6 +165,7 @@ nav {
     line-height: 1.03;
     color: #2D3435;
     font-style: normal;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
 .button-container {
@@ -186,18 +189,11 @@ nav {
     height: 2vw;
     border: solid 0.2vw #F4B6C2;
     cursor: default;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
 .btn-2-acc {
     margin-left: 1.5vw;
-}
-
-.btn-behance {
-    background-image: url(/data/imgs/all/logo-behance.png);
-}
-
-.btn-linkedin {
-    background-image: url(/data/imgs/all/logo-linkedin.png);
 }
 
 .f-project {
