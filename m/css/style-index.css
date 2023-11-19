@@ -19,32 +19,34 @@ html{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 15vh;
+    margin-top: 10vh;
 }
 
 .box-img-header {
     display: flex;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
 }
 
 .img-manon-acc {
     margin: auto;
-    width: 50vw;
+    width: min(40vh, 90vw);
+    position: absolute;
+    top: 10vh;
 }
 
 .int-header {
     display: block;
-    margin: auto;
-    margin-top: 0;
     width: 90vw;
+    position: absolute;
+    left: 5vw;
+    top: 51vh;
 }
 
 .hello {
-    font-size: 10vw;
+    font-size: 12vw;
     padding: 0;
     margin: 0;
-    margin-top: 3vh;
     margin-left: 1vw;
     font-weight: 700;
     color: #2D3435;
@@ -55,7 +57,7 @@ html{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    margin-top: 0vw;
+    margin-top: 0;
     padding: 0;
 }
 
@@ -63,9 +65,9 @@ html{
     position: relative;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
-    font-size: 4.6vw;
+    font-size: 4.4vw;
     margin: 0;
-    margin-top: 1vw;
+    margin-top: 0.8vw;
     font-weight: 700;
     color: #2D3435;
     border-left: 1.2vw solid #2D3435;
@@ -90,7 +92,7 @@ html{
 }
 
 .button-container {
-    margin-top: 2vh;
+    margin-top: 4vw;
     display: flex;
     justify-content: space-between;
 }
@@ -98,10 +100,10 @@ html{
 .button-container button {
     justify-content: space-between;
     outline: none;
-    font-size: 3.9vw;
+    font-size: 3.8vw;
     font-weight: 300;
     line-height: 1;
-    border-radius: 1vh;
+    border-radius: 2vw;
     white-space: normal;
     text-align: center;
     padding: 1.4vw 1.4vw 4.6vw 1.4vw;
@@ -117,12 +119,15 @@ html{
 
 .container-down-arrow {
     text-align: center;
-    margin-top: 26vh;
+    margin-top: 20vw;
     width: 100%;
 }
 
 .down-arrow {
-    width: 40px;
+    width: 8vw;
+    position: absolute;
+    top: 94vh;
+    left: 46vw;
 }
 
 .f-project {
