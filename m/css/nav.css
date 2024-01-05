@@ -118,7 +118,8 @@ body {
   transition: transform 0.5s ease-in-out;
   text-align: center;
   background-color: #ffffff;
-  z-index: 2;
+  z-index: 3;
+  top: 0;
 }
 
 .navbar .menu-items li {
@@ -127,60 +128,47 @@ body {
   font-weight: 500;
 }
 
-.nav_btn-cv {
-  background-color: #0e2431;
-  border: solid 0.5vw #0e2431;
-  border-radius: 500vw;
-  width: 6rem;
-  height: 2rem;
-  font-size: 1rem;
-  color: #ffffff;
-  transition: color 0.3s, background-color 0.3s ease;
+.btn-cv,
+.btn-behance,
+.btn-linkedin {
+    border-radius: 50vw;
+    border: none;
+    background-color: #2D3435;
+    position: absolute;
 }
 
-.nav_btn-cv:hover {
-  background-color: #ffffff;
-  color: #0e2431;
+.btn-cv {
+  color: white;
+  font-size: 4vw;
+  text-align: center;
+  height: 7vw;
+  width: 20vw;
+  top: 1vh;
+  left: 3vw;
 }
 
-.nav_btn-lkdn {
-  background-color: #0e2431;
-  border: solid 0.5vw #0e2431;
-  border-radius: 500vw;
-  width: 2rem;
-  height: 2rem;
+.btn-behance,
+.btn-linkedin {
+    height: 7vw;
+    width: 7vw;
 }
 
-.nav_logo-lkdn {
-  width: 1rem;
+.btn-behance {
+  background-image: url(../../data/imgs/all/logo-behance.png);
+  background-position: 50% 50%;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  top: 1vh;
+  left: 27vw;
 }
 
-.nav_btn-bhnc {
-  background-color: #0e2431;
-  border: solid 0.5vw #0e2431;
-  border-radius: 500vw;
-  width: 2rem;
-  height: 2rem;
-}
-
-.nav_logo-bhnc {
-  height: 0.8rem;
-  margin-top: 0.1rem;
-  margin-left: 0.1rem;
-}
-
-.logo {
-  position: absolute;
-  top: 5px;
-  left: 15px;
-  font-size: 1.2rem;
-  color: #0e2431;
-  z-index: 3;
-}
-
-.logo img {
-  height: 58px;
-  width: 58px;
+.btn-linkedin {
+  background-image: url(../../data/imgs/all/logo-linkedin.png);
+  background-position: 50% 35%;
+  background-size: 55%;
+  background-repeat: no-repeat;
+  top: 1vh;
+  left: 38vw;
 }
 
 .nav-container input[type="checkbox"]:checked ~ .menu-items {

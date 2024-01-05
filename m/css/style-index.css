@@ -30,9 +30,9 @@ html{
 
 .img-manon-acc {
     margin: auto;
-    width: min(40vh, 90vw);
+    width: min(26vh, 60vw);
     position: absolute;
-    top: 10vh;
+    top: 15vh;
 }
 
 .int-header {
