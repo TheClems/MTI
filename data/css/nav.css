@@ -31,7 +31,7 @@ nav {
 .btn-linkedin {
     border-radius: 50vw;
     border: none;
-    background: #2D3435;
+    background-color: #2D3435;
     cursor: pointer;
     transition-property: background-color, border-color, color, box-shadow, filter;
     transition-duration: 0.3s;
@@ -50,6 +50,20 @@ nav {
 .btn-linkedin {
     height: 2vw;
     width: 2vw;
+}
+
+.btn-behance {
+    background-image: url(../imgs/all/logo-behance.png);
+    background-position: 50% 50%;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.btn-linkedin {
+    background-image: url(../imgs/all/logo-linkedin.png);
+    background-position: 50% 35%;
+    background-size: 55%;
+    background-repeat: no-repeat;
 }
 
 .btn-cv:hover,
