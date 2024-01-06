@@ -66,9 +66,7 @@ nav {
     background-repeat: no-repeat;
 }
 
-.btn-cv:hover,
-.btn-behance:hover,
-.btn-linkedin:hover {
+.btn-cv:hover {
     background-color: lightgray;
     color: #2D3435;
     cursor: pointer;
