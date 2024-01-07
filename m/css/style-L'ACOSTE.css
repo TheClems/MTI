@@ -100,7 +100,6 @@ h3 {
     left: 46vw;
 }
 
-/*fond blanc avec padding, de projet jusqu'à la fin de wireframe*/
 .background-white {
     background-color: #ffffff;
     margin: 0;
@@ -108,13 +107,11 @@ h3 {
     padding-right: 7vw;
 }
 
-/*Bannières et autres images faisant 100% de la largeur de leur emplacement*/
 .banniere {
     width: 100%;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-/*Titre projet et autres titre de même style*/
 .box-h2 {
     height: 7vw;
     display: flex;
