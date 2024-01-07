@@ -14,35 +14,35 @@ body {
 /*Header*/
 .header-background {
     background-color: #FFFAEF;
-    height: 100vh;
+    height: 74vh;
 }
 
 .hero {
     padding-left: 7vw;
-    margin-top: 2vh;
-    background-color: red;
+    margin-top: 1vh;
+    display: flex;
 }
 
 .box-top-hero {
     display: flex;
-    height: 3.5vh;
+    height: 7vw;
     padding: 0;
 }
 
 .le {
-    margin-right: 0.6vh;
-    border-bottom: 0.2vh solid black;
+    margin-right: 1.2vw;
+    border-bottom: 0.4vw solid black;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5vh;
+    font-size: 3vw;
     letter-spacing: -0.5px;
     text-align: left;
-    margin-top: 0.9vh;
-    height: 2.1vh;
+    margin-top: 1.8vw;
+    height: 4.2vw;
 }
 
 .hero_subtitle {
     font-family: 'Poppins', sans-serif;
-    font-size: 2.5vh;
+    font-size: 5vw;
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.5px;
@@ -52,21 +52,28 @@ body {
 }
 
 .hero-h1 {
-    font-size: 5vh;
+    font-size: 10vw;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+}
+
+.embleme-header {
+    width: 48%;
+    margin-left: 10%;
 }
 
 .bot-header {
     padding-left: 7vw;
     padding-right: 7vw;
-    margin-top: 20vw;
+    margin-top: 5vh;
 }
 
 h3 {
     font-size: 2.5vh;
     line-height: 3vh;
-    margin-top: 5vh;
+    margin-top: 4vh;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 .text-header {
@@ -75,9 +82,22 @@ h3 {
     font-weight: 400;
     color: #2D3435;
     text-align: left;
-    margin-top: 1vh;
+    margin-top: 0.5vh;
     line-height: normal;
     letter-spacing: -0.5px;
+}
+
+.container-down-arrow {
+    text-align: center;
+    margin-top: 20vw;
+    width: 100%;
+}
+
+.down-arrow {
+    width: 8vw;
+    position: absolute;
+    top: 69vh;
+    left: 46vw;
 }
 
 /*fond blanc avec padding, de projet jusqu'à la fin de wireframe*/
@@ -91,6 +111,7 @@ h3 {
 /*Bannières et autres images faisant 100% de la largeur de leur emplacement*/
 .banniere {
     width: 100%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 /*Titre projet et autres titre de même style*/
