@@ -137,11 +137,11 @@ h3 {
 .text-corp_white {
     font-family: 'Poppins', sans-serif;
     font-size: 2vh;
-    font-weight: 100;
+    font-weight: 400;
     color: #2D3435;
     text-align: left;
     margin-top: 1vh;
-    line-height: 2.4vh;
+    line-height: normal;
     padding-bottom: 2.4vh;
     letter-spacing: -0.5px;
 }

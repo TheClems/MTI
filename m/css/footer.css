@@ -1,13 +1,14 @@
 /*Footer*/
 footer {
     text-align: center;
-    height: 18vh;
+    height: 15vh;
     background-color: #2D3435;
+    margin-top: 5vh;
 }
 
 .btn-cv-footer {
     cursor: pointer;
-    font-size: 4vw;
+    font-size: 4.5vw;
     font-weight: 400;
     border-radius: 1vh;
     transition-property: background-color, border-color, color, box-shadow, filter;
@@ -28,9 +29,9 @@ footer {
 }
 
 .p-footer {
-    font-size: 3vw;
+    font-size: 3.5vw;
     margin: 0;
-    padding: 1vh;
+    padding: 1.5vh;
     color: #ffffff;
 }
 
