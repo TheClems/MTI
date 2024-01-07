@@ -131,7 +131,7 @@ html{
 }
 
 .f-project {
-    height: 614vw;
+    height: 650vw;
     width: 100%;
     padding-top: 2vw;
 }
@@ -175,13 +175,23 @@ html{
     width: 100%;
 }
 
+.container-projects-cards > span {
+    background-color: #DDD;
+    width: 90vw;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
 /*Box pour regroupper img, h3, p et btn*/
 .box-card {
     width: 90vw;
     height: 90vw;
     background-color: transparent;
     margin: auto;
-    margin-bottom: 10vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
 }
 
 /* Style cartes */
