@@ -6,7 +6,7 @@ nav {
     width: 100%;
     padding-top: 3vh;
     padding-bottom: 3vh;
-    text-align: right;
+    text-align: center;
     text-decoration: none;
 }
 
@@ -19,13 +19,15 @@ nav {
     cursor: pointer;
     text-decoration: none;
     background-color: transparent;
-    margin-right: 2vw;
+    margin-right: 2.5vw;
+    margin-left: 2.5vw;
 }
 
 .nav-btn-txt:hover {
     text-decoration: underline;
 }
 
+/*
 .btn-cv,
 .btn-behance,
 .btn-linkedin {
@@ -71,3 +73,5 @@ nav {
     color: #2D3435;
     cursor: pointer;
 }
+
+*/
