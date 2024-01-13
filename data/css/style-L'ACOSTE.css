@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 /*Reset CSS presets et smooth scroll*/
 * {
     margin: 0;
+    font-weight: 400;
 }
 
 html {
@@ -14,11 +17,14 @@ body {
 /*Header*/
 .header-background {
     background-color: #FFFAEF;
-    height: 100vh;
+    height: 70vh;
 }
 
 .header {
     padding-left: 5vw;
+}
+
+.flex {
     display: flex;
     align-items: center;
 }
@@ -43,7 +49,7 @@ body {
 .header_subtitle {
     font-family: 'Poppins', sans-serif;
     font-size: 5vh;
-    font-weight: 100;
+    font-weight: 400;
     letter-spacing: -0.5px;
     text-align: left;
     margin: 0;
@@ -58,6 +64,7 @@ body {
 .header-h1 {
     font-size: 10vh;
     font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 
 .embleme-header {
@@ -65,17 +72,31 @@ body {
     margin-left: 5vw;
 }
 
+.hero-btn_behance {
+    background-color: #2D3435;
+    color: #fff;
+    width: 30vh;
+    height: 4vh;
+    text-align: center;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 2.5vh;
+    line-height: 4vh;
+    border-radius: 0.8vh;
+}
+
 /*Tableau en bas du header*/
 .t1 {
     width: 100%;
     margin: 0 auto;
-    margin-top: 40vh;
+    margin-top: 10vh;
+    border-collapse: collapse;
 }
 
 .t1 th {
     font-size: 1.5vw;
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     padding: 0vh 4vw 2vh 4vw;
     text-align: left;
 }
@@ -85,7 +106,7 @@ body {
     font-family: 'Poppins', sans-serif;
     vertical-align: top;
     line-height: 3.6vh;
-    font-weight: 100;
+    font-weight: 300;
     padding: 2vh 4vw 0vh 4vw;
 }
 
@@ -95,12 +116,25 @@ body {
 
 .title-table2 {
     width: 32.5vw;
+    border-left: 1px solid #DDD;
+    border-right: 1px solid #DDD;
 }
 
 .title-table3 {
     width: 15vw;
 }
 
+.title-table1,
+.title-table2,
+.title-table3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.td-mid {
+    border-left: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+}
 
 td:nth-child(3) {
     text-align: left;
@@ -125,47 +159,28 @@ th:nth-child(3) {
 
 /*Titre projet et autres titre de même style*/
 .box-h2 {
-    height: 10vh;
-    display: flex;
-    padding: 0;
     margin-top: 1vw;
-    padding-bottom: 1vw;
-}
-
-.box-le {
-    border-bottom: 0.3vw solid #F4B6C2;
-    margin-top: 0.8vw;
-    height: 2.8vw;
-}
-
-.txt-le {
-    font-size: 2vw;
-    margin: 0;
-    padding: 0;
-    color: #F4B6C2;
-    font-family: 'Poppins', sans-serif;
 }
 
 .titre_rose {
-    font-size: 3.5vw;
-    font-weight: 100;
-    line-height: 5vw;
+    font-size: 3vw;
+    font-weight: 400;
+    line-height: 3vw;
     margin: 0;
-    margin-left: 10px;
     padding: 0;
     color: #F4B6C2;
     font-family: 'Poppins', sans-serif;
-
+    text-transform: uppercase;
 }
 
 /*Style du texte de corp*/
 .text-corp {
     font-family: 'Poppins', sans-serif;
     font-size: 1.2vw;
-    font-weight: 100;
+    font-weight: 400;
     color: #2D3435;
     text-align: left;
-    margin-top: 2vw;
+    margin-top: 1vw;
     line-height: 1.7vw;
     padding-bottom: 3vw;
 }
@@ -175,7 +190,7 @@ th:nth-child(3) {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 1.3vw;
-    font-weight: 100;
+    font-weight: 500;
     color: #2D3435;
     margin-top: 2vw;
     line-height: 1.8vw;
