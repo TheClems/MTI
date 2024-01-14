@@ -17,11 +17,12 @@ body {
 /*Header*/
 .header-background {
     background-color: #FFFAEF;
-    height: 70vh;
+    height: 72vh;
 }
 
 .header {
     padding-left: 5vw;
+    margin-top: 3vh;
 }
 
 .flex {
@@ -162,7 +163,8 @@ th:nth-child(3) {
     margin-top: 1vw;
 }
 
-.titre_rose {
+.titre_rose,
+.subtitre {
     font-size: 2.5vw;
     font-weight: 500;
     line-height: 2.5vw;
@@ -171,10 +173,13 @@ th:nth-child(3) {
     color: #F4B6C2;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
+    margin-bottom: 2vh;
 }
 
 .subtitre {
-    
+    font-size: 2vw;
+    text-transform: none;
+    margin-bottom: 4vh;
 }
 
 /*Style du texte de corp*/
