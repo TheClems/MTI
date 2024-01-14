@@ -266,6 +266,12 @@ th:nth-child(3) {
     width: 10.6vw;
 }
 
+.img-flex,
+.img-2colums {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 0.8vw;
+}
+
 /*Séparation de l'écran en 2 pour Selectionner et En détails*/
 .two-columns {
     display: flex;
