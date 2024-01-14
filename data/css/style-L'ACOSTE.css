@@ -194,6 +194,10 @@ th:nth-child(3) {
     padding-bottom: 3vw;
 }
 
+.text-corp>b {
+    font-weight: 700;
+}
+
 /*Emblème iconique*/
 .embleme {
     text-align: center;
@@ -267,7 +271,7 @@ th:nth-child(3) {
 }
 
 .img-flex,
-.img-2colums {
+.img-2columns {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 0.8vw;
 }
