@@ -21,7 +21,7 @@ body {
 }
 
 .header {
-    padding-left: 5vw;
+    padding-left: 4vw;
     margin-top: 3vh;
 }
 
@@ -66,6 +66,8 @@ body {
     font-size: 10vh;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    padding: 0;
+    margin: 0;
 }
 
 .embleme-header {
@@ -77,13 +79,15 @@ body {
     background-color: #2D3435;
     color: #fff;
     width: 30vh;
-    height: 4vh;
+    height: 4.6vh;
     text-align: center;
     font-family: Poppins, Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-size: 2.5vh;
     line-height: 4vh;
     border-radius: 0.8vh;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 3vh;
 }
 
 /*Tableau en bas du header*/
