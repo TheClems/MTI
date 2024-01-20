@@ -170,7 +170,8 @@ th:nth-child(3) {
 }
 
 /*Style du texte utilisé par exemple pour Qu'est ce que LERIA ?*/
-.text-corp {
+.text-corp, 
+.dark-bg {
     font-family: 'Poppins', sans-serif;
     font-size: 1.2vw;
     font-weight: 400;
@@ -210,8 +211,9 @@ th:nth-child(3) {
 }
 
 .dark-bg {
-    background-color: #FFFAEF;
-    padding-top: 1vw;
+    background-color: #2D3435;
+    color: #fff;
+    padding-top: 3vw;
     padding-right: 16vw;
     padding-bottom: 3vw;
     padding-left: 16vw;
