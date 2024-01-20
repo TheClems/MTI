@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
     margin: 0;
 }
@@ -27,21 +29,10 @@ body {
     padding: 0;
 }
 
-.le {
-    margin-right: 0.6vw;
-    border-bottom: 0.5vh solid black;
-    font-family: 'Poppins', sans-serif;
-    font-size: 3.5vh;
-    letter-spacing: -0.5px;
-    text-align: left;
-    margin-top: 1.2vh;
-    height: 4.6vh;
-}
-
 .p2-header {
     font-family: 'Poppins', sans-serif;
     font-size: 3.5vh;
-    font-weight: 100;
+    font-weight: 400;
     letter-spacing: -0.5px;
     text-align: left;
     margin: 0;
@@ -56,6 +47,7 @@ body {
 .Leria {
     font-size: 11vh;
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 .btn_decouvrir_site {
@@ -91,7 +83,7 @@ body {
 .t1 th {
     font-size: 1.5vw;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     padding: 0vh 4vw 2vh 4vw;
     text-align: left;
 }
@@ -161,13 +153,13 @@ th:nth-child(3) {
 .subtitre {
     font-size: 2.5vw;
     font-weight: 500;
-    line-height: 2.5vw;
+    line-height: 2vw;
     margin-top: 10vh;
     padding: 0;
     color: #F4B6C2;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
-    margin-bottom: 2vh;
+    margin-bottom: 0;
 }
 
 .subtitre {
@@ -181,12 +173,19 @@ th:nth-child(3) {
 .text-corp {
     font-family: 'Poppins', sans-serif;
     font-size: 1.2vw;
-    font-weight: 100;
+    font-weight: 400;
     color: #2D3435;
     text-align: left;
-    margin-top: 2vw;
+    margin-top: 1.5vh;
     line-height: 1.8vw;
     padding-bottom: 3vw;
+}
+
+.text-corp b {
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    line-height: 3.5vw;
+    font-weight: 500;
 }
 
 .box-logo-leria {
@@ -210,7 +209,7 @@ th:nth-child(3) {
     width: 60%;
 }
 
-.background_rose {
+.dark-bg {
     background-color: #FFFAEF;
     padding-top: 1vw;
     padding-right: 16vw;
