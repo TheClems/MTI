@@ -20,7 +20,7 @@ body {
 }
 
 .header {
-    padding-left: 5vw;
+    padding-left: 4vw;
 }
 
 .box-top-header {
@@ -48,10 +48,12 @@ body {
     font-size: 11vh;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    line-height: 12vh;
 }
 
 .btn_decouvrir_site {
     background-color: #2D3435;
+    border: none;
     color: #fff;
     width: 30vh;
     height: 4.6vh;
