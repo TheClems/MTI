@@ -17,7 +17,7 @@ body {
 /*Header*/
 .header-background {
     background-color: #FFFAEF;
-    height: 72vh;
+    padding-bottom: 3vh;
 }
 
 .header {
