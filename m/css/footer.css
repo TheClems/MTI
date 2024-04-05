@@ -7,7 +7,7 @@ footer {
 
 .btn-cv-footer {
     cursor: pointer;
-    font-size: 4.5vw;
+    font-size: 4vw;
     font-weight: 400;
     border-radius: 1vh;
     transition-property: background-color, border-color, color, box-shadow, filter;
@@ -18,7 +18,7 @@ footer {
     height: 2vw;
     border: solid 0.2vw #F4B6C2;
     margin-top: 1.5vh;
-    width: 50vw;
+    width: 60vw;
     height: 8vw;
 }
 
@@ -38,6 +38,7 @@ footer {
     height: 4vw;
     padding: 0;
     margin: 0;
-    margin-left: 3vw;
-    margin-right: 3vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 5vw;
 }
