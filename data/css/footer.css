@@ -1,7 +1,7 @@
 /*Footer*/
 footer {
     text-align: center;
-    height: 18vh;
+    height: 25vh;
     background: #2D3435;
     margin-top: 2vw;
 }
@@ -10,6 +10,7 @@ footer {
     display: inline-block;
     outline: none;
     cursor: pointer;
+    width: 13vw;
     font-size: 0.8vw;
     font-weight: 400;
     line-height: 1.2vw;
