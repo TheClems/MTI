@@ -2,11 +2,16 @@ body {
     margin: 0;
     padding: 0;
     font-family: Poppins, Arial, Helvetica, sans-serif;
+    background-color: #FFFAEF;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 .fjaune {
     background-color: #FFFAEF;
-    height: 100vh;
+    height: 98vh;
 }
 
 .container-header {
@@ -45,11 +50,11 @@ body {
 }
 
 .hello {
-    font-size: 2vw;
+    font-size: 2.6vw;
     padding: 0;
     margin: 0;
     margin-top: 30px;
-    font-weight: 100;
+    font-weight: 800;
     color: #2D3435;
 }
 
@@ -64,10 +69,10 @@ body {
 .vertical-p {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
-    font-size: 1vw;
+    font-size: 1.5vw;
     margin: 0;
     margin-top: 0.6vw;
-    font-weight: 100;
+    font-weight: 800;
     color: #2D3435;
     border-left: 5px solid #2D3435;
     padding-left: 5px;
@@ -81,9 +86,9 @@ body {
     margin-bottom: 1px;
     margin-left: 10px;
     padding: 0;
-    font-size: 4.2vw;
-    font-weight: 100;
-    line-height: 1;
+    font-size: 6.3vw;
+    font-weight: 800;
+    line-height: 1.03;
     color: #2D3435;
 }
 
@@ -91,49 +96,28 @@ body {
     margin-top: 1vw;
     display: flex;
     justify-content: space-between;
-    width: 25vw;
+    width: 30vw;
 }
 
 .button-container button {
     display: inline-block;
     outline: none;
-    cursor: pointer;
-    font-size: 1vw;
+    font-size: 1.5vw;
     font-weight: 400;
     line-height: 1;
-    border-radius: 500px;
-    transition-property: background-color,border-color,color,box-shadow,filter;
-    transition-duration: .3s;
+    border-radius: 0.6vw;
     white-space: normal;
-    font-weight: 700;
+    font-weight: 400;
     text-align: center;
-    padding: 0.5vw 0.5vw 1.5vw 0.5vw;
+    padding: 0.6vw 0.6vw 2vw 0.6vw;
     color: #fff;
     background-color: #F4B6C2;
     height: 2vw;
-    border: transparent;
+    border: solid 0.2vw #F4B6C2;
+    cursor: default;
 }
 
 .bio {
     margin-top: 2vw;
     font-size: 1vw;
-}
-
-footer {
-    text-align: center;
-    height: 10vh;
-    margin-top: 10vh;
-}
-
-.p-footer {
-    font-size: 1vw;
-    padding: 0.8vh;
-}
-
-.img-footer {
-    height: 1vw;
-    padding: 0;
-    margin: 0;
-    margin-left: 1vw;
-    margin-right: 1vw;
 }
