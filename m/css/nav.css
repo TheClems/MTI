@@ -131,9 +131,9 @@ body {
 .btn-cv,
 .btn-behance,
 .btn-linkedin {
-    border-radius: 50vw;
+    border-radius: 2vw;
     border: none;
-    background-color: #2D3435;
+    background-color: #000;
     position: absolute;
 }
 
@@ -143,8 +143,8 @@ body {
   text-align: center;
   height: 7vw;
   width: 20vw;
-  top: 1vh;
-  left: 3vw;
+  top: 2vh;
+  left: 7vw;
 }
 
 .btn-behance,
@@ -153,22 +153,22 @@ body {
     width: 7vw;
 }
 
-.btn-behance {
-  background-image: url(../../data/imgs/all/logo-behance.png);
-  background-position: 50% 50%;
-  background-size: 70%;
-  background-repeat: no-repeat;
-  top: 1vh;
-  left: 27vw;
-}
-
 .btn-linkedin {
   background-image: url(../../data/imgs/all/logo-linkedin.png);
   background-position: 50% 35%;
   background-size: 55%;
   background-repeat: no-repeat;
-  top: 1vh;
-  left: 38vw;
+  top: 2vh;
+  left: 30vw;
+}
+
+.btn-behance {
+  background-image: url(../../data/imgs/all/logo-behance.png);
+  background-position: 50% 50%;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  top: 2vh;
+  left: 39.5vw;
 }
 
 .nav-container input[type="checkbox"]:checked ~ .menu-items {
