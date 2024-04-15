@@ -1,0 +1,13 @@
+.result-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6vw 0 6vw;
+}
+
+.result-container_img1 {
+    width: 60vw;
+}
+
+.result-container_img2 {
+    width: 17vw;
+}
