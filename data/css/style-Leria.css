@@ -13,10 +13,10 @@ body {
 }
 
 
-/*Herder*/
+/*Header*/
 .header-background {
     background-color: #FFFAEF;
-    height: 72vh;
+    height: 90vh;
 }
 
 .header {
@@ -31,7 +31,7 @@ body {
 
 .p2-header {
     font-family: 'Poppins', sans-serif;
-    font-size: 3.5vh;
+    font-size: 3vh;
     font-weight: 300;
     letter-spacing: -0.5px;
     text-align: left;
@@ -45,10 +45,10 @@ body {
 }
 
 .Leria {
-    font-size: 11vh;
+    font-size: 10vh;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    line-height: 12vh;
+    line-height: 11vh;
     text-transform: uppercase;
 }
 
@@ -56,83 +56,45 @@ body {
     background-color: #2D3435;
     border: none;
     color: #fff;
-    width: 30vh;
+    width: 20vh;
     height: 4.6vh;
     text-align: center;
     font-family: Poppins, Arial, Helvetica, sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 2.5vh;
-    line-height: 4vh;
+    line-height: 3.5vh;
     border-radius: 0.8vh;
     transition: background-color 0.3s, color 0.3s;
     margin-top: 1vh;
     border: 3px solid #2D3435;
 }
 
-.btn_decouvrir_site:hover {
+.btn_header:hover {
     background-color: transparent;
     color: #2D3435;
+    font-weight: 400;
 }
 
-/* Tableau */
-/*Tableau en bas du header*/
-.t1 {
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 6vh;
-    border-collapse: collapse;
+/* Decription du projet */
+.description {
+    width: 40vw;
+    margin: 6vh 0 0 4vw;
 }
 
-.t1 th {
+.description>p>b {
     font-size: 1.5vw;
-    font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    padding: 0vh 4vw 2vh 4vw;
-    text-align: left;
+    text-transform: uppercase;
+    line-height: 3vw;
 }
 
-.t1 td {
+.description>p {
     font-size: 1.2vw;
     font-family: 'Poppins', sans-serif;
-    vertical-align: top;
-    line-height: 3.6vh;
+    line-height: 3.2vh;
     font-weight: 300;
-    padding: 2vh 4vw 0vh 4vw;
 }
 
-.title-table1 {
-    width: 42.5vw;
-}
-
-.title-table2 {
-    width: 32.5vw;
-    border-left: 1px solid #DDD;
-    border-right: 1px solid #DDD;
-}
-
-.title-table3 {
-    width: 15vw;
-}
-
-.title-table1,
-.title-table2,
-.title-table3 {
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.td-mid {
-    border-left: 1px solid #DDD;
-    border-right: 1px solid #DDD;
-}
-
-td:nth-child(3) {
-    text-align: left;
-}
-
-th:nth-child(3) {
-    text-align: left;
-}
 
 /*Image d'éolienne en dessous du tableau*/
 .img-eolienne {
