@@ -25,14 +25,14 @@ body {
 
 .box-top-header {
     display: flex;
-    height: 4vh;
+    height: 3vh;
     padding: 0;
 }
 
 .p2-header {
     font-family: 'Poppins', sans-serif;
     font-size: 3.5vh;
-    font-weight: 400;
+    font-weight: 300;
     letter-spacing: -0.5px;
     text-align: left;
     margin: 0;
@@ -40,18 +40,19 @@ body {
 }
 
 .box-header-bot {
-    padding-top: 2vh;
     display: flex;
+    padding-top: 1vh;
 }
 
 .Leria {
     font-size: 11vh;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 12vh;
+    text-transform: uppercase;
 }
 
-.btn_decouvrir_site {
+.btn_header {
     background-color: #2D3435;
     border: none;
     color: #fff;
@@ -59,18 +60,18 @@ body {
     height: 4.6vh;
     text-align: center;
     font-family: Poppins, Arial, Helvetica, sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 2.5vh;
     line-height: 4vh;
     border-radius: 0.8vh;
     transition: background-color 0.3s, color 0.3s;
-    margin-top: 3vh;
+    margin-top: 1vh;
+    border: 3px solid #2D3435;
 }
 
 .btn_decouvrir_site:hover {
     background-color: transparent;
     color: #2D3435;
-    border: 3px solid #2D3435;
 }
 
 /* Tableau */
