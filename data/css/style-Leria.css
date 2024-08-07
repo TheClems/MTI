@@ -95,6 +95,11 @@ body {
     font-weight: 300;
 }
 
+/*Gradiant*/
+.gradiant-sub-header {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(120,160,164,1) 63%, rgba(1,90,112,1) 100%);
+}
 
 /*Image d'éolienne en dessous du tableau*/
 .img-eolienne {
