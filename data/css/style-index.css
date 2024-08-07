@@ -135,9 +135,9 @@ html{
     font-size: 1.5vw;
     margin: 0;
     margin-top: 1vw;
-    font-weight: 800;
+    font-weight: 600;
     color: #2D3435;
-    border-left: 0.5vw solid #2D3435;
+    border-left: 0.4vw solid #2D3435;
     padding-left: 5px;
     font-family: Poppins, Arial, Helvetica, sans-serif;
 }
@@ -185,7 +185,7 @@ html{
 }
 
 .f-project {
-    height: 118vw;
+    height: 160vw;
     width: 100%;
     padding-top: 2vw;
 }
@@ -213,13 +213,16 @@ html{
     color: #F4B6C2;
 }
 
-.projets {
+.box-h2-subH2 {
+    width: 100%;
+    text-align: center;
+}
+
+.h2projets {
     color: #F4B6C2;
     font-size: 3vw;
-    margin: 0;
-    padding: 0;
-    margin-top: 0.2vw;
-    margin-left: 0.5vw;
+    font-weight: 400;
+    margin-bottom: 0;
 }
 
 /*Container cartes projets*/
@@ -360,4 +363,20 @@ a {
 
 .return_button.visible {
     opacity: 1;
+}
+
+.contact-band {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fdeff2;
+}
+
+.contact-band>div {
+    display: flex;
+}
+
+.contact-band>div>p {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: 1vw;
 }
