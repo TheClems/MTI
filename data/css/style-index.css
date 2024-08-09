@@ -364,19 +364,3 @@ a {
 .return_button.visible {
     opacity: 1;
 }
-
-.contact-band {
-    display: flex;
-    justify-content: space-around;
-    background-color: #fdeff2;
-}
-
-.contact-band>div {
-    display: flex;
-}
-
-.contact-band>div>p {
-    margin-left: 1vw;
-    margin-right: 1vw;
-    font-size: 1vw;
-}
