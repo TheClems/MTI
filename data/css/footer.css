@@ -1,7 +1,7 @@
 /*Footer*/
 footer {
     text-align: center;
-    height: 13vw;
+    height: 16vw;
     background: #2D3435;
     margin-top: 2vh;
 }
@@ -49,4 +49,21 @@ footer {
     margin: 0;
     margin-left: 1vw;
     margin-right: 1vw;
+}
+
+.contact-band {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fdeff2;
+}
+
+.contact-band>div {
+    display: flex;
+}
+
+.contact-band>div>p {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: 1vw;
+    font-family: Inter, Arial, Helvetica, sans-serif;
 }
