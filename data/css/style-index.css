@@ -25,13 +25,13 @@ html{
 .btn-cv,
 .btn-behance,
 .btn-linkedin {
-    border-radius: 50vw;
+    border-radius: 0.4vw;
     border: none;
     background-color: #2D3435;
     cursor: pointer;
     transition-property: background-color, border-color, color, box-shadow, filter;
     transition-duration: 0.3s;
-    margin: 1.5vw;
+    margin: 0.8vw;
     color: white;
     font-size: 1vw;
     text-align: center;
