@@ -16,7 +16,20 @@ body {
 /*Header*/
 .header-background {
     background-color: #FFFAEF;
-    height: 90vh;
+    height: 80vh;
+}
+
+.header-division {
+    display: flex;
+}
+
+.right-header {
+    display: flex;
+    margin: auto;
+}
+
+.Hero-img {
+    width: 34vw;
 }
 
 .header {
