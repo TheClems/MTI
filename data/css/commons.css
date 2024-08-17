@@ -48,7 +48,7 @@ body {
 
 .header_subtitle {
     font-family: 'Poppins', sans-serif;
-    font-size: 4.8vh;
+    font-size: 4vh;
     font-weight: 400;
     letter-spacing: -0.5px;
     text-align: left;
@@ -62,7 +62,7 @@ body {
 }
 
 .header-h1 {
-    font-size: 9.6vh;
+    font-size: 8vh;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     padding: 0;
