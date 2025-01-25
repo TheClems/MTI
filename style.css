@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&display=swap');
+
+
+*{
+    margin : 0;
+    padding: 0;
+    font-family: Inter, Arial, Sans-Serif;
+}
+
+body{
+    background-color: #E7E4ED;
+}
+
+.div_centre{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 83vh;
+    justify-content: center;
+}
+
+.div_img_nom_prenom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_PP{
+    width: 159px;
+}
+
+.txt_nom_prenom{
+    font-size: 34px;
+}
+
+.h3_nom{
+    font-weight: 400;
+    color: #434343;
+}
+
+.h2_web_design{
+    font-size: 114px;
+    font-weight: 500;
+}
+
+.card_parent{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.card{
+    
+}
+.a_card{
+    display: flex;
+    flex-direction: column;
+}
+
+.lien{
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    color: black;
+    font-weight: 500;
+    margin-top: 23px;
+
+}
+
+.card h2 {
+    font-size: 20px;
+    font-weight: 800;
+}
+@media (max-width: 768px){
+    
+    .img_PP {
+        width: 125px;
+    }
+    .txt_nom_prenom {
+        font-size: 25px;
+    }
+    .h2_web_design {
+        font-size: 65px;
+        font-weight: 500;
+    }
+    .card_parent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .div_centre {
+        height: 65vh;
+    }
+    
+    .card {
+        margin-bottom: 46px;
+    }
+    
+    .a_card {
+        display: flex;
+        flex-direction: column;
+        line-height: 55px;
+        font-size: 20px;
+    }
+    
+    .card h2{
+        font-size: 35px;
+    }
+    
+}
